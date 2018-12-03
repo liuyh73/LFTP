@@ -1,3 +1,5 @@
+#ifndef PACKET_HPP
+#define PACKET_HPP
 #include <iostream>
 #include <cstring>
 #define DATA_LEN 2024
@@ -26,3 +28,4 @@ struct packet{
         this->data[len] = '\0';
     }
 };
+#endif
