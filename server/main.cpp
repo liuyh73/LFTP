@@ -1,6 +1,7 @@
 #include <iostream>
 #include "../role/sender.cpp"
 #include "../packet/packet.hpp"
+#include "../role/receiver.cpp"
 #include <cstdio>
 #include <cstdlib>
 #include <winsock2.h>
@@ -13,12 +14,13 @@
 #include <vector>
 #include <mutex>
 #include <cmath>
+#include <queue>
 // #define SERVER_IP "172.18.32.128"
 #define SERVER_PORT 8808
 using namespace std;
 const int timeout = 1000;
 void handleGetFile(SOCKET sock, struct sockaddr_in cli_addr, int cli_addr_len, int cli_rwnd, char *filepath);
-
+void handleSendFile(SOCKET sock, struct sockaddr_in cli_addr, int cli_addr_len, char *filepath);
 int main() {
     //初始化DLL
     WSADATA wsaData;
@@ -68,7 +70,8 @@ int main() {
             thread lgetFile(handleGetFile, sock, cli_addr, cli_addr_len, rcvpkt.rwnd, rcvpkt.data);
             lgetFile.detach();
         } else if (string(rcvpkt.cmd) == "lsend") {
-
+            thread lsendFile(handleSendFile, sock, cli_addr, cli_addr_len, rcvpkt.data);
+            lsendFile.detach();
         }
     }
     closesocket(sock);
@@ -115,4 +118,47 @@ void handleGetFile(SOCKET sock, struct sockaddr_in cli_addr, int cli_addr_len, i
 
     sender snder(base, next_seqnum, rwnd, cwnd, ssthresh, fin, stop_timer, stop_rcv, timeout, filepath, sock, cli_addr, cli_addr_len);
     snder.start();
+}
+
+void handleSendFile(SOCKET sock, struct sockaddr_in cli_addr, int cli_addr_len, char *filepath){
+    printf("lsend %s\n", filepath);
+    packet sndpkt;
+    /* check for existence */
+    if ((_access(filepath, 0)) != -1) {
+        char file_has_existed[] = "The file has been existed.\n";
+        sndpkt = packet(0, 0, 0, '0', "", 1, sizeof(file_has_existed), file_has_existed);
+        int sendnum = sendto(sock, (char*)&sndpkt, sizeof(sndpkt), 0, (struct sockaddr*)&cli_addr, cli_addr_len);
+        if(sendnum < 0) {
+            cerr<<"sendto error"<<endl;
+        }
+        cout<<file_has_existed<<endl;
+        return;
+    }
+
+    /* 以写、二进制方式打开文件 */
+    ofstream file(filepath, ios::out|ios::binary);
+    if(!file.is_open()) {
+        char file_open_failed[] = "Fail to open the file, please try again.\n";
+        sndpkt = packet(0, 0, 0, '0', "", 1, sizeof(file_open_failed), file_open_failed);
+        int sendnum = sendto(sock, (char*)&sndpkt, sizeof(sndpkt), 0, (struct sockaddr*)&cli_addr, cli_addr_len);
+        if(sendnum < 0) {
+            cerr<<"sendto error"<<endl;
+        }
+        cout<<"Fail to open the file, please try again.\n"<<endl;
+        return;
+    }
+
+    int bufSize = 128;
+    int rwnd = 128;
+    int expected_seqnum = 1;
+    clock_t clocker;
+    bool stop_timer = false;
+    queue<packet>pkts_buf;
+    sndpkt = packet(0, 0, rwnd, '1', "", 1, 0, 0);
+    int sendnum = sendto(sock, (char*)&sndpkt, sizeof(sndpkt), 0, (struct sockaddr*)&cli_addr, cli_addr_len);
+    if(sendnum < 0) {
+        cerr<<"sendto error"<<endl;
+    }
+    receiver rcver(bufSize, rwnd, expected_seqnum, stop_timer, timeout, filepath, sock, cli_addr, cli_addr_len);
+    rcver.start();
 }

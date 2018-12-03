@@ -1,6 +1,7 @@
 #include <iostream>
 #include "../role/receiver.cpp"
 #include "../packet/packet.hpp"
+#include "../role/sender.cpp"
 #include <stdio.h>
 #include <cstdlib>
 #include <winsock2.h>
@@ -19,8 +20,8 @@ const int port = 8808;
 const int timeout = 1000;
 char filepath[100];
 using namespace std;
-void handleGetFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len);
-void handleSendFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len);
+void getFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len);
+void sendFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len);
 int main(int argc, char *argv[]) {
     srand(time(nullptr));
     strcpy(cmd, argv[1]);
@@ -57,20 +58,16 @@ int main(int argc, char *argv[]) {
 
     struct packet sndpkt;
     if(string(cmd) == "lget") {
-        handleGetFile(sock, svc_addr, svc_addr_len);
+        getFile(sock, svc_addr, svc_addr_len);
     } else if (string(cmd) == "lsend") {
-        handleSendFile(sock, svc_addr, svc_addr_len);
+        sendFile(sock, svc_addr, svc_addr_len);
     }
     closesocket(sock);
     WSACleanup();
     return 0;
 }
 
-mutex pkts_buf_mutex;
-mutex rwnd_mutex;
-void readFromBuf(ofstream &file, queue<packet>&pkts_buf, int &bufSize, int &rwnd);
-
-void handleGetFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
+void getFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
     /* check for existence */
     // if ((_access(filepath, 0)) != -1) {
     //     printf("The file has been existed.");
@@ -99,7 +96,7 @@ void handleGetFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
     rcver.start();
 }
 
-void handleSendFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
+void sendFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
     /* check for existence */
     if ((_access(filepath, 0)) == -1) {
         printf("The file doesn't exist.");
@@ -134,13 +131,15 @@ void handleSendFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) 
         }
         rcvlen = recvfrom(sock, (char*)&rcvpkt, sizeof(rcvpkt), 0, (struct sockaddr *)&svc_addr, &svc_addr_len);
         if(rcvlen > 0) {
+            if(rcvpkt.status == '0') {
+                printf("%s\n", rcvpkt.data);
+                return;
+            }
             rwnd = rcvpkt.rwnd;
             break;
         }
     }
 
-    /* 此线程用于接收客户端的确认包，并更新base,packets,rwnd,cwnd以及ssthresh等 */
-    
-
-
+    sender snder(base, next_seqnum, rwnd, cwnd, ssthresh, fin, stop_timer, stop_rcv, timeout, filepath, sock, svc_addr, svc_addr_len);
+    snder.start();
 }
