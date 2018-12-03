@@ -19,6 +19,7 @@ const int timeout = 1000;
 char filepath[100];
 using namespace std;
 void handleGetFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len);
+void handleSendFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len);
 int main(int argc, char *argv[]) {
     srand(time(nullptr));
     strcpy(cmd, argv[1]);
@@ -33,6 +34,15 @@ int main(int argc, char *argv[]) {
     SOCKET sock = socket(PF_INET, SOCK_DGRAM, 0);
     if(sock < 0) {
         cerr << "sock error"<<endl;
+        WSACleanup();
+        exit(1);
+    }
+
+    timeval tv = {3000, 0};
+    if(setsockopt(sock, SOL_SOCKET, SO_RCVTIMEO, (char*)&tv, sizeof(timeval))) {
+        cerr << "setsockopt failed" <<endl;
+        closesocket(sock);
+        WSACleanup();
         exit(1);
     }
 
@@ -48,6 +58,7 @@ int main(int argc, char *argv[]) {
     if(string(cmd) == "lget") {
         handleGetFile(sock, svc_addr, svc_addr_len);
     } else if (string(cmd) == "lsend") {
+        handleSendFile(sock, svc_addr, svc_addr_len);
     }
     closesocket(sock);
     WSACleanup();
@@ -65,8 +76,8 @@ void handleGetFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
     //     return;
     // }
     
-    int bufSize = 50;
-    int rwnd = 50;
+    int bufSize = 128;
+    int rwnd = 128;
     int expected_seqnum = 1;
     clock_t clocker;
     bool stop_timer = false;
@@ -91,13 +102,17 @@ void handleGetFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
         int rcvlen = recvfrom(sock, (char*)&rcvpkt, sizeof(rcvpkt), 0, (struct sockaddr *)&svc_addr, &svc_addr_len);
         printf("%d %d %d %c %c %d\n", rcvpkt.seq, rcvpkt.ack, rcvpkt.rwnd, rcvpkt.status, rcvpkt.fin, rcvpkt.len);
         if(rcvlen < 0) {
-            cerr << "recvfrom error"<<endl;
-            exit(1);
+            continue;
         }
         cerr <<rcvpkt.seq << " " << expected_seqnum <<" "<<rwnd <<endl;
         if (rcvpkt.seq == expected_seqnum) {
             if (rcvpkt.status == '0') {
-                printf("%s", rcvpkt.data);
+                printf("%s\n", rcvpkt.data);
+                try{
+                    TerminateThread(&read_from_buf_thread, 0);
+                } catch(exception e) {
+                    
+                }
                 return;
             }
             if (rwnd > 1) {
@@ -143,8 +158,7 @@ void handleGetFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
         int rcvlen = recvfrom(sock, (char*)&rcvpkt, sizeof(rcvpkt), 0, (struct sockaddr *)&svc_addr, &svc_addr_len);
         printf("%d %d %d %c %c %d\n", rcvpkt.seq, rcvpkt.ack, rcvpkt.rwnd, rcvpkt.status, rcvpkt.fin, rcvpkt.len);
         if(rcvlen < 0) {
-            cerr << "recvfrom error"<<endl;
-            exit(1);
+            continue;
         }
         cout << "rcvpkt.seq: "<<rcvpkt.seq<< " fin pkt: " << rcvpkt.fin << endl;
         if(rcvpkt.seq == expected_seqnum && rcvpkt.fin == '1') {
@@ -161,8 +175,7 @@ void handleGetFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
 
 void readFromBuf(ofstream &file, queue<packet>&pkts_buf, int &bufSize, int &rwnd) {
     while(true) {
-        Sleep(50);
-        // cerr << "pkts_buf_lenght: "<<pkts_buf.size()<<endl;
+        // Sleep(5);
         // 生成随机数，读取n个包
         int count = rand()%(bufSize - rwnd + 1) + 5;
         pkts_buf_mutex.lock();
@@ -180,4 +193,50 @@ void readFromBuf(ofstream &file, queue<packet>&pkts_buf, int &bufSize, int &rwnd
         }
         pkts_buf_mutex.unlock();
     }
+}
+
+void handleSendFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
+    /* check for existence */
+    if ((_access(filepath, 0)) == -1) {
+        printf("The file doesn't exist.");
+        return;
+    }
+
+    /* 以读、二进制方式打开文件 */
+    ofstream file(filepath, ios::in|ios::binary);
+    if(!file.is_open()) {
+        printf("Fail to create the file, please try again.");
+        return;
+    }
+
+    int base = 1;
+    int next_seqnum = 1;
+    int rwnd = 0;
+    int cwnd = 1;
+    int ssthresh = 64;
+    char fin = '0';
+    bool stop_timer = false;
+    bool stop_rcv = false;
+    clock_t clocker;
+    vector<packet>packets;
+    packet rcvpkt;
+    packet sndpkt = packet(0, 0, 0, 1, cmd, '0', sizeof(filepath), filepath);
+    int sndlen, rcvlen;
+    // 发送lsend命令包，并获得服务器回传数据。
+    while(true) {
+        sndlen = sendto(sock, (char*)&sndpkt, sizeof(sndpkt), 0, (struct sockaddr *)&svc_addr, svc_addr_len);
+        if(sndlen < 0) {
+            continue;
+        }
+        rcvlen = recvfrom(sock, (char*)&rcvpkt, sizeof(rcvpkt), 0, (struct sockaddr *)&svc_addr, &svc_addr_len);
+        if(rcvlen > 0) {
+            rwnd = rcvpkt.rwnd;
+            break;
+        }
+    }
+
+    /* 此线程用于接收客户端的确认包，并更新base,packets,rwnd,cwnd以及ssthresh等 */
+    
+
+
 }

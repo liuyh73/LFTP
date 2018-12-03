@@ -24,6 +24,7 @@
         "string": "cpp",
         "thread": "cpp",
         "functional": "cpp",
-        "fstream": "cpp"
+        "fstream": "cpp",
+        "mutex": "cpp"
     }
 }
