@@ -17,7 +17,7 @@
 char cmd[6];
 char ip[15];
 const int port = 8808;
-const int timeout = 1000;
+const clock_t timeout = 1000;
 char filepath[100];
 using namespace std;
 void getFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len);
@@ -27,7 +27,6 @@ int main(int argc, char *argv[]) {
     strcpy(cmd, argv[1]);
     strcpy(ip, argv[2]);
     strcpy(filepath, argv[3]);
-    printf("%s, %s, %s\n", cmd, ip, filepath);
     //初始化DLL
     WSADATA wsaData;
     WSAStartup(MAKEWORD(2, 2), &wsaData);
@@ -74,26 +73,37 @@ void getFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
     //     return;
     // }
     
-    int bufSize = 128;
-    int rwnd = 128;
+    int bufSize = 64;
+    int rwnd = 64;
     int expected_seqnum = 1;
     clock_t clocker;
     bool stop_timer = false;
     queue<packet>pkts_buf;
-    packet rcvpkt;
-    packet sndpkt = packet(expected_seqnum, 0, rwnd, 1, cmd, '0', sizeof(filepath), filepath);
-    int sndlen = sendto(sock, (char*)&sndpkt, sizeof(sndpkt), 0, (struct sockaddr *)&svc_addr, svc_addr_len);
-    if(sndlen < 0) {
-        cerr << "sendto error"<<endl;
-    }
     /* 以写、二进制方式打开文件 */
     ofstream file(filepath, ios::out|ios::binary);
     if(!file.is_open()) {
         printf("Fail to create the file, please try again.");
         return;
     }
+    packet rcvpkt;
+    packet sndpkt = packet(expected_seqnum, 0, rwnd, 1, cmd, '0', sizeof(filepath), filepath);
+    while(true) {
+        int sndlen = sendto(sock, (char*)&sndpkt, sizeof(sndpkt), 0, (struct sockaddr *)&svc_addr, svc_addr_len);
+        if(sndlen < 0) {
+            cerr << "sendto error"<<endl;
+        }
+        int rcvlen = recvfrom(sock, (char*)&rcvpkt, sizeof(rcvpkt), 0, (struct sockaddr *)&svc_addr, &svc_addr_len);
+        if(rcvlen < 0) {
+            cerr << "recvfrom error"<<endl;
+        } else {
+            cerr << "succeed to receive pkt"<<endl;
+            break;
+        }
+    }
+
     receiver rcver(bufSize, rwnd, expected_seqnum, stop_timer, timeout, filepath, sock, svc_addr, svc_addr_len);
     rcver.start();
+    printf("%s", "download finished.");
 }
 
 void sendFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
@@ -112,16 +122,16 @@ void sendFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
 
     int base = 1;
     int next_seqnum = 1;
-    int rwnd = 0;
+    int rwnd = 64;
     int cwnd = 1;
-    int ssthresh = 64;
+    int ssthresh = 32;
     char fin = '0';
     bool stop_timer = false;
     bool stop_rcv = false;
     clock_t clocker;
     vector<packet>packets;
     packet rcvpkt;
-    packet sndpkt = packet(0, 0, 0, 1, cmd, '0', sizeof(filepath), filepath);
+    packet sndpkt = packet(0, 0, 0, '1', cmd, '0', sizeof(filepath), filepath);
     int sndlen, rcvlen;
     // 发送lsend命令包，并获得服务器回传数据。
     while(true) {
@@ -129,6 +139,7 @@ void sendFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
         if(sndlen < 0) {
             continue;
         }
+        break;
         rcvlen = recvfrom(sock, (char*)&rcvpkt, sizeof(rcvpkt), 0, (struct sockaddr *)&svc_addr, &svc_addr_len);
         if(rcvlen > 0) {
             if(rcvpkt.status == '0') {
@@ -142,4 +153,5 @@ void sendFile(SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
 
     sender snder(base, next_seqnum, rwnd, cwnd, ssthresh, fin, stop_timer, stop_rcv, timeout, filepath, sock, svc_addr, svc_addr_len);
     snder.start();
+    printf("%s\n", "upload finished.");
 }

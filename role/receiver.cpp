@@ -22,12 +22,12 @@ private:
     SOCKET sock;
     struct sockaddr_in svc_addr;
     int svc_addr_len;
-    int timeout;
+    clock_t timeout;
     char *filepath;
     mutex pkts_buf_mutex;
     mutex rwnd_mutex;
 public:
-    receiver(int bufSize, int rwnd, int expected_seqnum, bool stop_timer, int timeout, char *filepath, SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
+    receiver(int bufSize, int rwnd, int expected_seqnum, bool stop_timer, clock_t timeout, char *filepath, SOCKET sock, struct sockaddr_in svc_addr, int svc_addr_len) {
         this->bufSize = bufSize;
         this->rwnd = rwnd;
         this->expected_seqnum = expected_seqnum;
@@ -39,7 +39,8 @@ public:
         this->svc_addr_len = svc_addr_len;
     }
 
-    void readFromBuf(ofstream &file, queue<packet>&pkts_buf, int &bufSize, int &rwnd) {
+    void readFromBuf() {
+        ofstream file(filepath, ios::out|ios::binary);
         while(true) {
             // Sleep(5);
             // 生成随机数，读取n个包
@@ -54,6 +55,7 @@ public:
                 rwnd_mutex.unlock();
                 file.write(pkt.data, pkt.len);
                 if (pkt.fin == '1') {
+                    file.close();
                     return;
                 }
             }
@@ -63,17 +65,16 @@ public:
 
     void start() {
         packet rcvpkt, sndpkt;
-        ofstream file(filepath, ios::out|ios::binary);
-        thread read_from_buf_thread(&receiver::readFromBuf, this, ref(file), ref(pkts_buf), ref(bufSize), ref(rwnd));
-    
+        /* 开启线程来从缓冲区读取数据 */
+        // thread read_from_buf_thread(&receiver::readFromBuf, this, ref(file), ref(pkts_buf), ref(bufSize), ref(rwnd));
+        thread read_from_buf_thread(&receiver::readFromBuf, this);
         while(true) {
-            printf("wait for rcv\n");
+            printf("wait for receive.\n");
             int rcvlen = recvfrom(sock, (char*)&rcvpkt, sizeof(rcvpkt), 0, (struct sockaddr *)&svc_addr, &svc_addr_len);
-            printf("%d %d %d %c %c %d\n", rcvpkt.seq, rcvpkt.ack, rcvpkt.rwnd, rcvpkt.status, rcvpkt.fin, rcvpkt.len);
+            printf("receive packet: SEQ: %d FIN: %c LEN: %d\n", rcvpkt.seq, rcvpkt.fin, rcvpkt.len);
             if(rcvlen < 0) {
                 continue;
             }
-            cerr <<rcvpkt.seq << " " << expected_seqnum <<" "<<rwnd <<endl;
             if (rcvpkt.seq == expected_seqnum) {
                 if (rcvpkt.status == '0') {
                     printf("%s\n", rcvpkt.data);
@@ -89,7 +90,7 @@ public:
                     rwnd -= 1;
                     rwnd_mutex.unlock();
                     expected_seqnum += 1;
-                    sndpkt = packet(expected_seqnum, rcvpkt.seq, rwnd, 1, "", rcvpkt.fin, 0, "");
+                    sndpkt = packet(expected_seqnum, rcvpkt.seq, rwnd, '1', "", rcvpkt.fin, 0, "");
                     printf("receive pkt %d.\n", rcvpkt.seq);
                     pkts_buf_mutex.lock();
                     pkts_buf.push(rcvpkt);
@@ -97,7 +98,7 @@ public:
                 }
             }
 
-            printf("send ack pkt %d.\n", sndpkt.ack);
+            printf("send ack packet: SEQ: %d, ACK: %d, FIN: %c.\n", sndpkt.seq, sndpkt.ack, sndpkt.fin);
             int sndlen = sendto(sock, (char*)&sndpkt, sizeof(sndpkt), 0, (struct sockaddr *)&svc_addr, svc_addr_len);
             if(sndlen < 0) {
                 cerr << "sendto error"<<endl;
@@ -105,7 +106,8 @@ public:
 
             if (sndpkt.fin == '1') {
                 clocker = clock();
-                cout<< "break" <<endl;
+                printf("receive the final data packet.\n");
+                // cout<< "break" <<endl;
                 break;
             }
         }
@@ -114,6 +116,7 @@ public:
                 if (stop_timer) break;
                 if(clock() - clocker > timeout) {
                     clocker = clock();
+                    printf("send the final ack packet.\n");
                     int sndlen = sendto(sock, (char*)&sndpkt, sizeof(sndpkt), 0, (struct sockaddr *)&svc_addr, svc_addr_len);
                     if(sndlen < 0) {
                         cerr << "sendto error"<<endl;
@@ -123,20 +126,16 @@ public:
         });
         while(true) {
             int rcvlen = recvfrom(sock, (char*)&rcvpkt, sizeof(rcvpkt), 0, (struct sockaddr *)&svc_addr, &svc_addr_len);
-            printf("%d %d %d %c %c %d\n", rcvpkt.seq, rcvpkt.ack, rcvpkt.rwnd, rcvpkt.status, rcvpkt.fin, rcvpkt.len);
             if(rcvlen < 0) {
                 continue;
             }
-            cout << "rcvpkt.seq: "<<rcvpkt.seq<< " fin pkt: " << rcvpkt.fin << endl;
             if(rcvpkt.seq == expected_seqnum && rcvpkt.fin == '1') {
-                cout<<"succeed to receive fin pkt."<<endl;
+                cout<<"receive the final ack packet."<<endl;
                 break;
             }
         }
-        file.close();
         stop_timer = true;
         lget_fin_timer.join();
         read_from_buf_thread.join();
-        printf("%s", "download finished.");
     }
 };
