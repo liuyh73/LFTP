@@ -1,0 +1,2104 @@
+wait for receive.
+receive packet: SEQ: 1 FIN: 0 LEN: 2024
+receive pkt 1.
+send ack packet: SEQ: 2, ACK: 1, FIN: 0.
+wait for receive.
+receive packet: SEQ: 1 FIN: 0 LEN: 2024
+send ack packet: SEQ: 2, ACK: 1, FIN: 0.
+wait for receive.
+receive packet: SEQ: 2 FIN: 0 LEN: 2024
+receive pkt 2.
+send ack packet: SEQ: 3, ACK: 2, FIN: 0.
+wait for receive.
+receive packet: SEQ: 3 FIN: 0 LEN: 2024
+receive pkt 3.
+send ack packet: SEQ: 4, ACK: 3, FIN: 0.
+wait for receive.
+receive packet: SEQ: 4 FIN: 0 LEN: 2024
+receive pkt 4.
+send ack packet: SEQ: 5, ACK: 4, FIN: 0.
+wait for receive.
+receive packet: SEQ: 5 FIN: 0 LEN: 2024
+receive pkt 5.
+send ack packet: SEQ: 6, ACK: 5, FIN: 0.
+wait for receive.
+receive packet: SEQ: 6 FIN: 0 LEN: 2024
+receive pkt 6.
+send ack packet: SEQ: 7, ACK: 6, FIN: 0.
+wait for receive.
+receive packet: SEQ: 7 FIN: 0 LEN: 2024
+receive pkt 7.
+send ack packet: SEQ: 8, ACK: 7, FIN: 0.
+wait for receive.
+receive packet: SEQ: 8 FIN: 0 LEN: 2024
+receive pkt 8.
+send ack packet: SEQ: 9, ACK: 8, FIN: 0.
+wait for receive.
+receive packet: SEQ: 9 FIN: 0 LEN: 2024
+receive pkt 9.
+send ack packet: SEQ: 10, ACK: 9, FIN: 0.
+wait for receive.
+receive packet: SEQ: 10 FIN: 0 LEN: 2024
+receive pkt 10.
+send ack packet: SEQ: 11, ACK: 10, FIN: 0.
+wait for receive.
+receive packet: SEQ: 11 FIN: 0 LEN: 2024
+receive pkt 11.
+send ack packet: SEQ: 12, ACK: 11, FIN: 0.
+wait for receive.
+receive packet: SEQ: 12 FIN: 0 LEN: 2024
+receive pkt 12.
+send ack packet: SEQ: 13, ACK: 12, FIN: 0.
+wait for receive.
+receive packet: SEQ: 13 FIN: 0 LEN: 2024
+receive pkt 13.
+send ack packet: SEQ: 14, ACK: 13, FIN: 0.
+wait for receive.
+receive packet: SEQ: 14 FIN: 0 LEN: 2024
+receive pkt 14.
+send ack packet: SEQ: 15, ACK: 14, FIN: 0.
+wait for receive.
+receive packet: SEQ: 15 FIN: 0 LEN: 2024
+receive pkt 15.
+send ack packet: SEQ: 16, ACK: 15, FIN: 0.
+wait for receive.
+receive packet: SEQ: 16 FIN: 0 LEN: 2024
+receive pkt 16.
+send ack packet: SEQ: 17, ACK: 16, FIN: 0.
+wait for receive.
+receive packet: SEQ: 17 FIN: 0 LEN: 2024
+receive pkt 17.
+send ack packet: SEQ: 18, ACK: 17, FIN: 0.
+wait for receive.
+receive packet: SEQ: 18 FIN: 0 LEN: 2024
+receive pkt 18.
+send ack packet: SEQ: 19, ACK: 18, FIN: 0.
+wait for receive.
+receive packet: SEQ: 19 FIN: 0 LEN: 2024
+receive pkt 19.
+send ack packet: SEQ: 20, ACK: 19, FIN: 0.
+wait for receive.
+receive packet: SEQ: 20 FIN: 0 LEN: 2024
+receive pkt 20.
+send ack packet: SEQ: 21, ACK: 20, FIN: 0.
+wait for receive.
+receive packet: SEQ: 21 FIN: 0 LEN: 2024
+receive pkt 21.
+send ack packet: SEQ: 22, ACK: 21, FIN: 0.
+wait for receive.
+receive packet: SEQ: 22 FIN: 0 LEN: 2024
+receive pkt 22.
+send ack packet: SEQ: 23, ACK: 22, FIN: 0.
+wait for receive.
+receive packet: SEQ: 23 FIN: 0 LEN: 2024
+receive pkt 23.
+send ack packet: SEQ: 24, ACK: 23, FIN: 0.
+wait for receive.
+receive packet: SEQ: 24 FIN: 0 LEN: 2024
+receive pkt 24.
+send ack packet: SEQ: 25, ACK: 24, FIN: 0.
+wait for receive.
+receive packet: SEQ: 25 FIN: 0 LEN: 2024
+receive pkt 25.
+send ack packet: SEQ: 26, ACK: 25, FIN: 0.
+wait for receive.
+receive packet: SEQ: 26 FIN: 0 LEN: 2024
+receive pkt 26.
+send ack packet: SEQ: 27, ACK: 26, FIN: 0.
+wait for receive.
+receive packet: SEQ: 27 FIN: 0 LEN: 2024
+receive pkt 27.
+send ack packet: SEQ: 28, ACK: 27, FIN: 0.
+wait for receive.
+receive packet: SEQ: 28 FIN: 0 LEN: 2024
+receive pkt 28.
+send ack packet: SEQ: 29, ACK: 28, FIN: 0.
+wait for receive.
+receive packet: SEQ: 29 FIN: 0 LEN: 2024
+receive pkt 29.
+send ack packet: SEQ: 30, ACK: 29, FIN: 0.
+wait for receive.
+receive packet: SEQ: 30 FIN: 0 LEN: 2024
+receive pkt 30.
+send ack packet: SEQ: 31, ACK: 30, FIN: 0.
+wait for receive.
+receive packet: SEQ: 31 FIN: 0 LEN: 2024
+receive pkt 31.
+send ack packet: SEQ: 32, ACK: 31, FIN: 0.
+wait for receive.
+receive packet: SEQ: 32 FIN: 0 LEN: 2024
+receive pkt 32.
+send ack packet: SEQ: 33, ACK: 32, FIN: 0.
+wait for receive.
+receive packet: SEQ: 33 FIN: 0 LEN: 2024
+receive pkt 33.
+send ack packet: SEQ: 34, ACK: 33, FIN: 0.
+wait for receive.
+receive packet: SEQ: 34 FIN: 0 LEN: 2024
+receive pkt 34.
+send ack packet: SEQ: 35, ACK: 34, FIN: 0.
+wait for receive.
+receive packet: SEQ: 35 FIN: 0 LEN: 2024
+receive pkt 35.
+send ack packet: SEQ: 36, ACK: 35, FIN: 0.
+wait for receive.
+receive packet: SEQ: 36 FIN: 0 LEN: 2024
+receive pkt 36.
+send ack packet: SEQ: 37, ACK: 36, FIN: 0.
+wait for receive.
+receive packet: SEQ: 37 FIN: 0 LEN: 2024
+receive pkt 37.
+send ack packet: SEQ: 38, ACK: 37, FIN: 0.
+wait for receive.
+receive packet: SEQ: 38 FIN: 0 LEN: 2024
+receive pkt 38.
+send ack packet: SEQ: 39, ACK: 38, FIN: 0.
+wait for receive.
+receive packet: SEQ: 39 FIN: 0 LEN: 2024
+receive pkt 39.
+send ack packet: SEQ: 40, ACK: 39, FIN: 0.
+wait for receive.
+receive packet: SEQ: 40 FIN: 0 LEN: 2024
+receive pkt 40.
+send ack packet: SEQ: 41, ACK: 40, FIN: 0.
+wait for receive.
+receive packet: SEQ: 41 FIN: 0 LEN: 2024
+receive pkt 41.
+send ack packet: SEQ: 42, ACK: 41, FIN: 0.
+wait for receive.
+receive packet: SEQ: 42 FIN: 0 LEN: 2024
+receive pkt 42.
+send ack packet: SEQ: 43, ACK: 42, FIN: 0.
+wait for receive.
+receive packet: SEQ: 43 FIN: 0 LEN: 2024
+receive pkt 43.
+send ack packet: SEQ: 44, ACK: 43, FIN: 0.
+wait for receive.
+receive packet: SEQ: 44 FIN: 0 LEN: 2024
+receive pkt 44.
+send ack packet: SEQ: 45, ACK: 44, FIN: 0.
+wait for receive.
+receive packet: SEQ: 45 FIN: 0 LEN: 2024
+receive pkt 45.
+send ack packet: SEQ: 46, ACK: 45, FIN: 0.
+wait for receive.
+receive packet: SEQ: 46 FIN: 0 LEN: 2024
+receive pkt 46.
+send ack packet: SEQ: 47, ACK: 46, FIN: 0.
+wait for receive.
+receive packet: SEQ: 47 FIN: 0 LEN: 2024
+receive pkt 47.
+send ack packet: SEQ: 48, ACK: 47, FIN: 0.
+wait for receive.
+receive packet: SEQ: 48 FIN: 0 LEN: 2024
+receive pkt 48.
+send ack packet: SEQ: 49, ACK: 48, FIN: 0.
+wait for receive.
+receive packet: SEQ: 49 FIN: 0 LEN: 2024
+receive pkt 49.
+send ack packet: SEQ: 50, ACK: 49, FIN: 0.
+wait for receive.
+receive packet: SEQ: 50 FIN: 0 LEN: 2024
+receive pkt 50.
+send ack packet: SEQ: 51, ACK: 50, FIN: 0.
+wait for receive.
+receive packet: SEQ: 51 FIN: 0 LEN: 2024
+receive pkt 51.
+send ack packet: SEQ: 52, ACK: 51, FIN: 0.
+wait for receive.
+receive packet: SEQ: 52 FIN: 0 LEN: 2024
+receive pkt 52.
+send ack packet: SEQ: 53, ACK: 52, FIN: 0.
+wait for receive.
+receive packet: SEQ: 53 FIN: 0 LEN: 2024
+receive pkt 53.
+send ack packet: SEQ: 54, ACK: 53, FIN: 0.
+wait for receive.
+receive packet: SEQ: 54 FIN: 0 LEN: 2024
+receive pkt 54.
+send ack packet: SEQ: 55, ACK: 54, FIN: 0.
+wait for receive.
+receive packet: SEQ: 55 FIN: 0 LEN: 2024
+receive pkt 55.
+send ack packet: SEQ: 56, ACK: 55, FIN: 0.
+wait for receive.
+receive packet: SEQ: 56 FIN: 0 LEN: 2024
+receive pkt 56.
+send ack packet: SEQ: 57, ACK: 56, FIN: 0.
+wait for receive.
+receive packet: SEQ: 57 FIN: 0 LEN: 2024
+receive pkt 57.
+send ack packet: SEQ: 58, ACK: 57, FIN: 0.
+wait for receive.
+receive packet: SEQ: 58 FIN: 0 LEN: 2024
+receive pkt 58.
+send ack packet: SEQ: 59, ACK: 58, FIN: 0.
+wait for receive.
+receive packet: SEQ: 59 FIN: 0 LEN: 2024
+receive pkt 59.
+send ack packet: SEQ: 60, ACK: 59, FIN: 0.
+wait for receive.
+receive packet: SEQ: 60 FIN: 0 LEN: 2024
+receive pkt 60.
+send ack packet: SEQ: 61, ACK: 60, FIN: 0.
+wait for receive.
+receive packet: SEQ: 61 FIN: 0 LEN: 2024
+receive pkt 61.
+send ack packet: SEQ: 62, ACK: 61, FIN: 0.
+wait for receive.
+receive packet: SEQ: 62 FIN: 0 LEN: 2024
+receive pkt 62.
+send ack packet: SEQ: 63, ACK: 62, FIN: 0.
+wait for receive.
+receive packet: SEQ: 63 FIN: 0 LEN: 2024
+receive pkt 63.
+send ack packet: SEQ: 64, ACK: 63, FIN: 0.
+wait for receive.
+receive packet: SEQ: 64 FIN: 0 LEN: 2024
+receive pkt 64.
+send ack packet: SEQ: 65, ACK: 64, FIN: 0.
+wait for receive.
+receive packet: SEQ: 65 FIN: 0 LEN: 2024
+receive pkt 65.
+send ack packet: SEQ: 66, ACK: 65, FIN: 0.
+wait for receive.
+receive packet: SEQ: 66 FIN: 0 LEN: 2024
+receive pkt 66.
+send ack packet: SEQ: 67, ACK: 66, FIN: 0.
+wait for receive.
+receive packet: SEQ: 67 FIN: 0 LEN: 2024
+receive pkt 67.
+send ack packet: SEQ: 68, ACK: 67, FIN: 0.
+wait for receive.
+receive packet: SEQ: 68 FIN: 0 LEN: 2024
+receive pkt 68.
+send ack packet: SEQ: 69, ACK: 68, FIN: 0.
+wait for receive.
+receive packet: SEQ: 69 FIN: 0 LEN: 2024
+receive pkt 69.
+send ack packet: SEQ: 70, ACK: 69, FIN: 0.
+wait for receive.
+receive packet: SEQ: 70 FIN: 0 LEN: 2024
+receive pkt 70.
+send ack packet: SEQ: 71, ACK: 70, FIN: 0.
+wait for receive.
+receive packet: SEQ: 71 FIN: 0 LEN: 2024
+receive pkt 71.
+send ack packet: SEQ: 72, ACK: 71, FIN: 0.
+wait for receive.
+receive packet: SEQ: 72 FIN: 0 LEN: 2024
+receive pkt 72.
+send ack packet: SEQ: 73, ACK: 72, FIN: 0.
+wait for receive.
+receive packet: SEQ: 73 FIN: 0 LEN: 2024
+receive pkt 73.
+send ack packet: SEQ: 74, ACK: 73, FIN: 0.
+wait for receive.
+receive packet: SEQ: 74 FIN: 0 LEN: 2024
+receive pkt 74.
+send ack packet: SEQ: 75, ACK: 74, FIN: 0.
+wait for receive.
+receive packet: SEQ: 75 FIN: 0 LEN: 2024
+receive pkt 75.
+send ack packet: SEQ: 76, ACK: 75, FIN: 0.
+wait for receive.
+receive packet: SEQ: 76 FIN: 0 LEN: 2024
+receive pkt 76.
+send ack packet: SEQ: 77, ACK: 76, FIN: 0.
+wait for receive.
+receive packet: SEQ: 77 FIN: 0 LEN: 2024
+receive pkt 77.
+send ack packet: SEQ: 78, ACK: 77, FIN: 0.
+wait for receive.
+receive packet: SEQ: 78 FIN: 0 LEN: 2024
+receive pkt 78.
+send ack packet: SEQ: 79, ACK: 78, FIN: 0.
+wait for receive.
+receive packet: SEQ: 79 FIN: 0 LEN: 2024
+receive pkt 79.
+send ack packet: SEQ: 80, ACK: 79, FIN: 0.
+wait for receive.
+receive packet: SEQ: 80 FIN: 0 LEN: 2024
+receive pkt 80.
+send ack packet: SEQ: 81, ACK: 80, FIN: 0.
+wait for receive.
+receive packet: SEQ: 81 FIN: 0 LEN: 2024
+receive pkt 81.
+send ack packet: SEQ: 82, ACK: 81, FIN: 0.
+wait for receive.
+receive packet: SEQ: 82 FIN: 0 LEN: 2024
+receive pkt 82.
+send ack packet: SEQ: 83, ACK: 82, FIN: 0.
+wait for receive.
+receive packet: SEQ: 83 FIN: 0 LEN: 2024
+receive pkt 83.
+send ack packet: SEQ: 84, ACK: 83, FIN: 0.
+wait for receive.
+receive packet: SEQ: 84 FIN: 0 LEN: 2024
+receive pkt 84.
+send ack packet: SEQ: 85, ACK: 84, FIN: 0.
+wait for receive.
+receive packet: SEQ: 85 FIN: 0 LEN: 2024
+receive pkt 85.
+send ack packet: SEQ: 86, ACK: 85, FIN: 0.
+wait for receive.
+receive packet: SEQ: 86 FIN: 0 LEN: 2024
+receive pkt 86.
+send ack packet: SEQ: 87, ACK: 86, FIN: 0.
+wait for receive.
+receive packet: SEQ: 87 FIN: 0 LEN: 2024
+receive pkt 87.
+send ack packet: SEQ: 88, ACK: 87, FIN: 0.
+wait for receive.
+receive packet: SEQ: 88 FIN: 0 LEN: 2024
+receive pkt 88.
+send ack packet: SEQ: 89, ACK: 88, FIN: 0.
+wait for receive.
+receive packet: SEQ: 89 FIN: 0 LEN: 2024
+receive pkt 89.
+send ack packet: SEQ: 90, ACK: 89, FIN: 0.
+wait for receive.
+receive packet: SEQ: 90 FIN: 0 LEN: 2024
+receive pkt 90.
+send ack packet: SEQ: 91, ACK: 90, FIN: 0.
+wait for receive.
+receive packet: SEQ: 91 FIN: 0 LEN: 2024
+receive pkt 91.
+send ack packet: SEQ: 92, ACK: 91, FIN: 0.
+wait for receive.
+receive packet: SEQ: 92 FIN: 0 LEN: 2024
+receive pkt 92.
+send ack packet: SEQ: 93, ACK: 92, FIN: 0.
+wait for receive.
+receive packet: SEQ: 93 FIN: 0 LEN: 2024
+receive pkt 93.
+send ack packet: SEQ: 94, ACK: 93, FIN: 0.
+wait for receive.
+receive packet: SEQ: 94 FIN: 0 LEN: 2024
+receive pkt 94.
+send ack packet: SEQ: 95, ACK: 94, FIN: 0.
+wait for receive.
+receive packet: SEQ: 95 FIN: 0 LEN: 2024
+receive pkt 95.
+send ack packet: SEQ: 96, ACK: 95, FIN: 0.
+wait for receive.
+receive packet: SEQ: 96 FIN: 0 LEN: 2024
+receive pkt 96.
+send ack packet: SEQ: 97, ACK: 96, FIN: 0.
+wait for receive.
+receive packet: SEQ: 97 FIN: 0 LEN: 2024
+receive pkt 97.
+send ack packet: SEQ: 98, ACK: 97, FIN: 0.
+wait for receive.
+receive packet: SEQ: 98 FIN: 0 LEN: 2024
+receive pkt 98.
+send ack packet: SEQ: 99, ACK: 98, FIN: 0.
+wait for receive.
+receive packet: SEQ: 99 FIN: 0 LEN: 2024
+receive pkt 99.
+send ack packet: SEQ: 100, ACK: 99, FIN: 0.
+wait for receive.
+receive packet: SEQ: 100 FIN: 0 LEN: 2024
+receive pkt 100.
+send ack packet: SEQ: 101, ACK: 100, FIN: 0.
+wait for receive.
+receive packet: SEQ: 101 FIN: 0 LEN: 2024
+receive pkt 101.
+send ack packet: SEQ: 102, ACK: 101, FIN: 0.
+wait for receive.
+receive packet: SEQ: 102 FIN: 0 LEN: 2024
+receive pkt 102.
+send ack packet: SEQ: 103, ACK: 102, FIN: 0.
+wait for receive.
+receive packet: SEQ: 103 FIN: 0 LEN: 2024
+receive pkt 103.
+send ack packet: SEQ: 104, ACK: 103, FIN: 0.
+wait for receive.
+receive packet: SEQ: 104 FIN: 0 LEN: 2024
+receive pkt 104.
+send ack packet: SEQ: 105, ACK: 104, FIN: 0.
+wait for receive.
+receive packet: SEQ: 105 FIN: 0 LEN: 2024
+receive pkt 105.
+send ack packet: SEQ: 106, ACK: 105, FIN: 0.
+wait for receive.
+receive packet: SEQ: 106 FIN: 0 LEN: 2024
+receive pkt 106.
+send ack packet: SEQ: 107, ACK: 106, FIN: 0.
+wait for receive.
+receive packet: SEQ: 107 FIN: 0 LEN: 2024
+receive pkt 107.
+send ack packet: SEQ: 108, ACK: 107, FIN: 0.
+wait for receive.
+receive packet: SEQ: 108 FIN: 0 LEN: 2024
+receive pkt 108.
+send ack packet: SEQ: 109, ACK: 108, FIN: 0.
+wait for receive.
+receive packet: SEQ: 109 FIN: 0 LEN: 2024
+receive pkt 109.
+send ack packet: SEQ: 110, ACK: 109, FIN: 0.
+wait for receive.
+receive packet: SEQ: 110 FIN: 0 LEN: 2024
+receive pkt 110.
+send ack packet: SEQ: 111, ACK: 110, FIN: 0.
+wait for receive.
+receive packet: SEQ: 111 FIN: 0 LEN: 2024
+receive pkt 111.
+send ack packet: SEQ: 112, ACK: 111, FIN: 0.
+wait for receive.
+receive packet: SEQ: 112 FIN: 0 LEN: 2024
+receive pkt 112.
+send ack packet: SEQ: 113, ACK: 112, FIN: 0.
+wait for receive.
+receive packet: SEQ: 113 FIN: 0 LEN: 2024
+receive pkt 113.
+send ack packet: SEQ: 114, ACK: 113, FIN: 0.
+wait for receive.
+receive packet: SEQ: 114 FIN: 0 LEN: 2024
+receive pkt 114.
+send ack packet: SEQ: 115, ACK: 114, FIN: 0.
+wait for receive.
+receive packet: SEQ: 115 FIN: 0 LEN: 2024
+receive pkt 115.
+send ack packet: SEQ: 116, ACK: 115, FIN: 0.
+wait for receive.
+receive packet: SEQ: 116 FIN: 0 LEN: 2024
+receive pkt 116.
+send ack packet: SEQ: 117, ACK: 116, FIN: 0.
+wait for receive.
+receive packet: SEQ: 117 FIN: 0 LEN: 2024
+receive pkt 117.
+send ack packet: SEQ: 118, ACK: 117, FIN: 0.
+wait for receive.
+receive packet: SEQ: 118 FIN: 0 LEN: 2024
+receive pkt 118.
+send ack packet: SEQ: 119, ACK: 118, FIN: 0.
+wait for receive.
+receive packet: SEQ: 119 FIN: 0 LEN: 2024
+receive pkt 119.
+send ack packet: SEQ: 120, ACK: 119, FIN: 0.
+wait for receive.
+receive packet: SEQ: 120 FIN: 0 LEN: 2024
+receive pkt 120.
+send ack packet: SEQ: 121, ACK: 120, FIN: 0.
+wait for receive.
+receive packet: SEQ: 121 FIN: 0 LEN: 2024
+receive pkt 121.
+send ack packet: SEQ: 122, ACK: 121, FIN: 0.
+wait for receive.
+receive packet: SEQ: 122 FIN: 0 LEN: 2024
+receive pkt 122.
+send ack packet: SEQ: 123, ACK: 122, FIN: 0.
+wait for receive.
+receive packet: SEQ: 123 FIN: 0 LEN: 2024
+receive pkt 123.
+send ack packet: SEQ: 124, ACK: 123, FIN: 0.
+wait for receive.
+receive packet: SEQ: 124 FIN: 0 LEN: 2024
+receive pkt 124.
+send ack packet: SEQ: 125, ACK: 124, FIN: 0.
+wait for receive.
+receive packet: SEQ: 125 FIN: 0 LEN: 2024
+receive pkt 125.
+send ack packet: SEQ: 126, ACK: 125, FIN: 0.
+wait for receive.
+receive packet: SEQ: 126 FIN: 0 LEN: 2024
+receive pkt 126.
+send ack packet: SEQ: 127, ACK: 126, FIN: 0.
+wait for receive.
+receive packet: SEQ: 127 FIN: 0 LEN: 2024
+receive pkt 127.
+send ack packet: SEQ: 128, ACK: 127, FIN: 0.
+wait for receive.
+receive packet: SEQ: 128 FIN: 0 LEN: 2024
+receive pkt 128.
+send ack packet: SEQ: 129, ACK: 128, FIN: 0.
+wait for receive.
+receive packet: SEQ: 129 FIN: 0 LEN: 2024
+receive pkt 129.
+send ack packet: SEQ: 130, ACK: 129, FIN: 0.
+wait for receive.
+receive packet: SEQ: 130 FIN: 0 LEN: 2024
+receive pkt 130.
+send ack packet: SEQ: 131, ACK: 130, FIN: 0.
+wait for receive.
+receive packet: SEQ: 131 FIN: 0 LEN: 2024
+receive pkt 131.
+send ack packet: SEQ: 132, ACK: 131, FIN: 0.
+wait for receive.
+receive packet: SEQ: 132 FIN: 0 LEN: 2024
+receive pkt 132.
+send ack packet: SEQ: 133, ACK: 132, FIN: 0.
+wait for receive.
+receive packet: SEQ: 133 FIN: 0 LEN: 2024
+receive pkt 133.
+send ack packet: SEQ: 134, ACK: 133, FIN: 0.
+wait for receive.
+receive packet: SEQ: 134 FIN: 0 LEN: 2024
+receive pkt 134.
+send ack packet: SEQ: 135, ACK: 134, FIN: 0.
+wait for receive.
+receive packet: SEQ: 135 FIN: 0 LEN: 2024
+receive pkt 135.
+send ack packet: SEQ: 136, ACK: 135, FIN: 0.
+wait for receive.
+receive packet: SEQ: 136 FIN: 0 LEN: 2024
+receive pkt 136.
+send ack packet: SEQ: 137, ACK: 136, FIN: 0.
+wait for receive.
+receive packet: SEQ: 137 FIN: 0 LEN: 2024
+receive pkt 137.
+send ack packet: SEQ: 138, ACK: 137, FIN: 0.
+wait for receive.
+receive packet: SEQ: 138 FIN: 0 LEN: 2024
+receive pkt 138.
+send ack packet: SEQ: 139, ACK: 138, FIN: 0.
+wait for receive.
+receive packet: SEQ: 139 FIN: 0 LEN: 2024
+receive pkt 139.
+send ack packet: SEQ: 140, ACK: 139, FIN: 0.
+wait for receive.
+receive packet: SEQ: 140 FIN: 0 LEN: 2024
+receive pkt 140.
+send ack packet: SEQ: 141, ACK: 140, FIN: 0.
+wait for receive.
+receive packet: SEQ: 141 FIN: 0 LEN: 2024
+receive pkt 141.
+send ack packet: SEQ: 142, ACK: 141, FIN: 0.
+wait for receive.
+receive packet: SEQ: 142 FIN: 0 LEN: 2024
+receive pkt 142.
+send ack packet: SEQ: 143, ACK: 142, FIN: 0.
+wait for receive.
+receive packet: SEQ: 143 FIN: 0 LEN: 2024
+receive pkt 143.
+send ack packet: SEQ: 144, ACK: 143, FIN: 0.
+wait for receive.
+receive packet: SEQ: 144 FIN: 0 LEN: 2024
+receive pkt 144.
+send ack packet: SEQ: 145, ACK: 144, FIN: 0.
+wait for receive.
+receive packet: SEQ: 145 FIN: 0 LEN: 2024
+receive pkt 145.
+send ack packet: SEQ: 146, ACK: 145, FIN: 0.
+wait for receive.
+receive packet: SEQ: 146 FIN: 0 LEN: 2024
+receive pkt 146.
+send ack packet: SEQ: 147, ACK: 146, FIN: 0.
+wait for receive.
+receive packet: SEQ: 147 FIN: 0 LEN: 2024
+receive pkt 147.
+send ack packet: SEQ: 148, ACK: 147, FIN: 0.
+wait for receive.
+receive packet: SEQ: 148 FIN: 0 LEN: 2024
+receive pkt 148.
+send ack packet: SEQ: 149, ACK: 148, FIN: 0.
+wait for receive.
+receive packet: SEQ: 149 FIN: 0 LEN: 2024
+receive pkt 149.
+send ack packet: SEQ: 150, ACK: 149, FIN: 0.
+wait for receive.
+receive packet: SEQ: 150 FIN: 0 LEN: 2024
+receive pkt 150.
+send ack packet: SEQ: 151, ACK: 150, FIN: 0.
+wait for receive.
+receive packet: SEQ: 151 FIN: 0 LEN: 2024
+receive pkt 151.
+send ack packet: SEQ: 152, ACK: 151, FIN: 0.
+wait for receive.
+receive packet: SEQ: 152 FIN: 0 LEN: 2024
+receive pkt 152.
+send ack packet: SEQ: 153, ACK: 152, FIN: 0.
+wait for receive.
+receive packet: SEQ: 153 FIN: 0 LEN: 2024
+receive pkt 153.
+send ack packet: SEQ: 154, ACK: 153, FIN: 0.
+wait for receive.
+receive packet: SEQ: 154 FIN: 0 LEN: 2024
+receive pkt 154.
+send ack packet: SEQ: 155, ACK: 154, FIN: 0.
+wait for receive.
+receive packet: SEQ: 155 FIN: 0 LEN: 2024
+receive pkt 155.
+send ack packet: SEQ: 156, ACK: 155, FIN: 0.
+wait for receive.
+receive packet: SEQ: 156 FIN: 0 LEN: 2024
+receive pkt 156.
+send ack packet: SEQ: 157, ACK: 156, FIN: 0.
+wait for receive.
+receive packet: SEQ: 157 FIN: 0 LEN: 2024
+receive pkt 157.
+send ack packet: SEQ: 158, ACK: 157, FIN: 0.
+wait for receive.
+receive packet: SEQ: 158 FIN: 0 LEN: 2024
+receive pkt 158.
+send ack packet: SEQ: 159, ACK: 158, FIN: 0.
+wait for receive.
+receive packet: SEQ: 159 FIN: 0 LEN: 2024
+receive pkt 159.
+send ack packet: SEQ: 160, ACK: 159, FIN: 0.
+wait for receive.
+receive packet: SEQ: 160 FIN: 0 LEN: 2024
+receive pkt 160.
+send ack packet: SEQ: 161, ACK: 160, FIN: 0.
+wait for receive.
+receive packet: SEQ: 161 FIN: 0 LEN: 2024
+receive pkt 161.
+send ack packet: SEQ: 162, ACK: 161, FIN: 0.
+wait for receive.
+receive packet: SEQ: 162 FIN: 0 LEN: 2024
+receive pkt 162.
+send ack packet: SEQ: 163, ACK: 162, FIN: 0.
+wait for receive.
+receive packet: SEQ: 163 FIN: 0 LEN: 2024
+receive pkt 163.
+send ack packet: SEQ: 164, ACK: 163, FIN: 0.
+wait for receive.
+receive packet: SEQ: 164 FIN: 0 LEN: 2024
+receive pkt 164.
+send ack packet: SEQ: 165, ACK: 164, FIN: 0.
+wait for receive.
+receive packet: SEQ: 165 FIN: 0 LEN: 2024
+receive pkt 165.
+send ack packet: SEQ: 166, ACK: 165, FIN: 0.
+wait for receive.
+receive packet: SEQ: 166 FIN: 0 LEN: 2024
+receive pkt 166.
+send ack packet: SEQ: 167, ACK: 166, FIN: 0.
+wait for receive.
+receive packet: SEQ: 167 FIN: 0 LEN: 2024
+receive pkt 167.
+send ack packet: SEQ: 168, ACK: 167, FIN: 0.
+wait for receive.
+receive packet: SEQ: 168 FIN: 0 LEN: 2024
+receive pkt 168.
+send ack packet: SEQ: 169, ACK: 168, FIN: 0.
+wait for receive.
+receive packet: SEQ: 169 FIN: 0 LEN: 2024
+receive pkt 169.
+send ack packet: SEQ: 170, ACK: 169, FIN: 0.
+wait for receive.
+receive packet: SEQ: 170 FIN: 0 LEN: 2024
+receive pkt 170.
+send ack packet: SEQ: 171, ACK: 170, FIN: 0.
+wait for receive.
+receive packet: SEQ: 171 FIN: 0 LEN: 2024
+receive pkt 171.
+send ack packet: SEQ: 172, ACK: 171, FIN: 0.
+wait for receive.
+receive packet: SEQ: 172 FIN: 0 LEN: 2024
+receive pkt 172.
+send ack packet: SEQ: 173, ACK: 172, FIN: 0.
+wait for receive.
+receive packet: SEQ: 173 FIN: 0 LEN: 2024
+receive pkt 173.
+send ack packet: SEQ: 174, ACK: 173, FIN: 0.
+wait for receive.
+receive packet: SEQ: 174 FIN: 0 LEN: 2024
+receive pkt 174.
+send ack packet: SEQ: 175, ACK: 174, FIN: 0.
+wait for receive.
+receive packet: SEQ: 175 FIN: 0 LEN: 2024
+receive pkt 175.
+send ack packet: SEQ: 176, ACK: 175, FIN: 0.
+wait for receive.
+receive packet: SEQ: 176 FIN: 0 LEN: 2024
+receive pkt 176.
+send ack packet: SEQ: 177, ACK: 176, FIN: 0.
+wait for receive.
+receive packet: SEQ: 177 FIN: 0 LEN: 2024
+receive pkt 177.
+send ack packet: SEQ: 178, ACK: 177, FIN: 0.
+wait for receive.
+receive packet: SEQ: 178 FIN: 0 LEN: 2024
+receive pkt 178.
+send ack packet: SEQ: 179, ACK: 178, FIN: 0.
+wait for receive.
+receive packet: SEQ: 179 FIN: 0 LEN: 2024
+receive pkt 179.
+send ack packet: SEQ: 180, ACK: 179, FIN: 0.
+wait for receive.
+receive packet: SEQ: 180 FIN: 0 LEN: 2024
+receive pkt 180.
+send ack packet: SEQ: 181, ACK: 180, FIN: 0.
+wait for receive.
+receive packet: SEQ: 181 FIN: 0 LEN: 2024
+receive pkt 181.
+send ack packet: SEQ: 182, ACK: 181, FIN: 0.
+wait for receive.
+receive packet: SEQ: 182 FIN: 0 LEN: 2024
+receive pkt 182.
+send ack packet: SEQ: 183, ACK: 182, FIN: 0.
+wait for receive.
+receive packet: SEQ: 183 FIN: 0 LEN: 2024
+receive pkt 183.
+send ack packet: SEQ: 184, ACK: 183, FIN: 0.
+wait for receive.
+receive packet: SEQ: 184 FIN: 0 LEN: 2024
+receive pkt 184.
+send ack packet: SEQ: 185, ACK: 184, FIN: 0.
+wait for receive.
+receive packet: SEQ: 185 FIN: 0 LEN: 2024
+receive pkt 185.
+send ack packet: SEQ: 186, ACK: 185, FIN: 0.
+wait for receive.
+receive packet: SEQ: 186 FIN: 0 LEN: 2024
+receive pkt 186.
+send ack packet: SEQ: 187, ACK: 186, FIN: 0.
+wait for receive.
+receive packet: SEQ: 187 FIN: 0 LEN: 2024
+receive pkt 187.
+send ack packet: SEQ: 188, ACK: 187, FIN: 0.
+wait for receive.
+receive packet: SEQ: 188 FIN: 0 LEN: 2024
+receive pkt 188.
+send ack packet: SEQ: 189, ACK: 188, FIN: 0.
+wait for receive.
+receive packet: SEQ: 189 FIN: 0 LEN: 2024
+receive pkt 189.
+send ack packet: SEQ: 190, ACK: 189, FIN: 0.
+wait for receive.
+receive packet: SEQ: 190 FIN: 0 LEN: 2024
+receive pkt 190.
+send ack packet: SEQ: 191, ACK: 190, FIN: 0.
+wait for receive.
+receive packet: SEQ: 191 FIN: 0 LEN: 2024
+receive pkt 191.
+send ack packet: SEQ: 192, ACK: 191, FIN: 0.
+wait for receive.
+receive packet: SEQ: 192 FIN: 0 LEN: 2024
+receive pkt 192.
+send ack packet: SEQ: 193, ACK: 192, FIN: 0.
+wait for receive.
+receive packet: SEQ: 193 FIN: 0 LEN: 2024
+receive pkt 193.
+send ack packet: SEQ: 194, ACK: 193, FIN: 0.
+wait for receive.
+receive packet: SEQ: 194 FIN: 0 LEN: 2024
+receive pkt 194.
+send ack packet: SEQ: 195, ACK: 194, FIN: 0.
+wait for receive.
+receive packet: SEQ: 195 FIN: 0 LEN: 2024
+receive pkt 195.
+send ack packet: SEQ: 196, ACK: 195, FIN: 0.
+wait for receive.
+receive packet: SEQ: 196 FIN: 0 LEN: 2024
+receive pkt 196.
+send ack packet: SEQ: 197, ACK: 196, FIN: 0.
+wait for receive.
+receive packet: SEQ: 197 FIN: 0 LEN: 2024
+receive pkt 197.
+send ack packet: SEQ: 198, ACK: 197, FIN: 0.
+wait for receive.
+receive packet: SEQ: 198 FIN: 0 LEN: 2024
+receive pkt 198.
+send ack packet: SEQ: 199, ACK: 198, FIN: 0.
+wait for receive.
+receive packet: SEQ: 199 FIN: 0 LEN: 2024
+receive pkt 199.
+send ack packet: SEQ: 200, ACK: 199, FIN: 0.
+wait for receive.
+receive packet: SEQ: 200 FIN: 0 LEN: 2024
+receive pkt 200.
+send ack packet: SEQ: 201, ACK: 200, FIN: 0.
+wait for receive.
+receive packet: SEQ: 201 FIN: 0 LEN: 2024
+receive pkt 201.
+send ack packet: SEQ: 202, ACK: 201, FIN: 0.
+wait for receive.
+receive packet: SEQ: 202 FIN: 0 LEN: 2024
+receive pkt 202.
+send ack packet: SEQ: 203, ACK: 202, FIN: 0.
+wait for receive.
+receive packet: SEQ: 203 FIN: 0 LEN: 2024
+receive pkt 203.
+send ack packet: SEQ: 204, ACK: 203, FIN: 0.
+wait for receive.
+receive packet: SEQ: 204 FIN: 0 LEN: 2024
+receive pkt 204.
+send ack packet: SEQ: 205, ACK: 204, FIN: 0.
+wait for receive.
+receive packet: SEQ: 205 FIN: 0 LEN: 2024
+receive pkt 205.
+send ack packet: SEQ: 206, ACK: 205, FIN: 0.
+wait for receive.
+receive packet: SEQ: 206 FIN: 0 LEN: 2024
+receive pkt 206.
+send ack packet: SEQ: 207, ACK: 206, FIN: 0.
+wait for receive.
+receive packet: SEQ: 207 FIN: 0 LEN: 2024
+receive pkt 207.
+send ack packet: SEQ: 208, ACK: 207, FIN: 0.
+wait for receive.
+receive packet: SEQ: 208 FIN: 0 LEN: 2024
+receive pkt 208.
+send ack packet: SEQ: 209, ACK: 208, FIN: 0.
+wait for receive.
+receive packet: SEQ: 209 FIN: 0 LEN: 2024
+receive pkt 209.
+send ack packet: SEQ: 210, ACK: 209, FIN: 0.
+wait for receive.
+receive packet: SEQ: 210 FIN: 0 LEN: 2024
+receive pkt 210.
+send ack packet: SEQ: 211, ACK: 210, FIN: 0.
+wait for receive.
+receive packet: SEQ: 211 FIN: 0 LEN: 2024
+receive pkt 211.
+send ack packet: SEQ: 212, ACK: 211, FIN: 0.
+wait for receive.
+receive packet: SEQ: 212 FIN: 0 LEN: 2024
+receive pkt 212.
+send ack packet: SEQ: 213, ACK: 212, FIN: 0.
+wait for receive.
+receive packet: SEQ: 213 FIN: 0 LEN: 2024
+receive pkt 213.
+send ack packet: SEQ: 214, ACK: 213, FIN: 0.
+wait for receive.
+receive packet: SEQ: 214 FIN: 0 LEN: 2024
+receive pkt 214.
+send ack packet: SEQ: 215, ACK: 214, FIN: 0.
+wait for receive.
+receive packet: SEQ: 215 FIN: 0 LEN: 2024
+receive pkt 215.
+send ack packet: SEQ: 216, ACK: 215, FIN: 0.
+wait for receive.
+receive packet: SEQ: 216 FIN: 0 LEN: 2024
+receive pkt 216.
+send ack packet: SEQ: 217, ACK: 216, FIN: 0.
+wait for receive.
+receive packet: SEQ: 217 FIN: 0 LEN: 2024
+receive pkt 217.
+send ack packet: SEQ: 218, ACK: 217, FIN: 0.
+wait for receive.
+receive packet: SEQ: 218 FIN: 0 LEN: 2024
+receive pkt 218.
+send ack packet: SEQ: 219, ACK: 218, FIN: 0.
+wait for receive.
+receive packet: SEQ: 219 FIN: 0 LEN: 2024
+receive pkt 219.
+send ack packet: SEQ: 220, ACK: 219, FIN: 0.
+wait for receive.
+receive packet: SEQ: 220 FIN: 0 LEN: 2024
+receive pkt 220.
+send ack packet: SEQ: 221, ACK: 220, FIN: 0.
+wait for receive.
+receive packet: SEQ: 221 FIN: 0 LEN: 2024
+receive pkt 221.
+send ack packet: SEQ: 222, ACK: 221, FIN: 0.
+wait for receive.
+receive packet: SEQ: 222 FIN: 0 LEN: 2024
+receive pkt 222.
+send ack packet: SEQ: 223, ACK: 222, FIN: 0.
+wait for receive.
+receive packet: SEQ: 223 FIN: 0 LEN: 2024
+receive pkt 223.
+send ack packet: SEQ: 224, ACK: 223, FIN: 0.
+wait for receive.
+receive packet: SEQ: 224 FIN: 0 LEN: 2024
+receive pkt 224.
+send ack packet: SEQ: 225, ACK: 224, FIN: 0.
+wait for receive.
+receive packet: SEQ: 225 FIN: 0 LEN: 2024
+receive pkt 225.
+send ack packet: SEQ: 226, ACK: 225, FIN: 0.
+wait for receive.
+receive packet: SEQ: 226 FIN: 0 LEN: 2024
+receive pkt 226.
+send ack packet: SEQ: 227, ACK: 226, FIN: 0.
+wait for receive.
+receive packet: SEQ: 227 FIN: 0 LEN: 2024
+receive pkt 227.
+send ack packet: SEQ: 228, ACK: 227, FIN: 0.
+wait for receive.
+receive packet: SEQ: 228 FIN: 0 LEN: 2024
+receive pkt 228.
+send ack packet: SEQ: 229, ACK: 228, FIN: 0.
+wait for receive.
+receive packet: SEQ: 229 FIN: 0 LEN: 2024
+receive pkt 229.
+send ack packet: SEQ: 230, ACK: 229, FIN: 0.
+wait for receive.
+receive packet: SEQ: 230 FIN: 0 LEN: 2024
+receive pkt 230.
+send ack packet: SEQ: 231, ACK: 230, FIN: 0.
+wait for receive.
+receive packet: SEQ: 231 FIN: 0 LEN: 2024
+receive pkt 231.
+send ack packet: SEQ: 232, ACK: 231, FIN: 0.
+wait for receive.
+receive packet: SEQ: 232 FIN: 0 LEN: 2024
+receive pkt 232.
+send ack packet: SEQ: 233, ACK: 232, FIN: 0.
+wait for receive.
+receive packet: SEQ: 233 FIN: 0 LEN: 2024
+receive pkt 233.
+send ack packet: SEQ: 234, ACK: 233, FIN: 0.
+wait for receive.
+receive packet: SEQ: 234 FIN: 0 LEN: 2024
+receive pkt 234.
+send ack packet: SEQ: 235, ACK: 234, FIN: 0.
+wait for receive.
+receive packet: SEQ: 235 FIN: 0 LEN: 2024
+receive pkt 235.
+send ack packet: SEQ: 236, ACK: 235, FIN: 0.
+wait for receive.
+receive packet: SEQ: 236 FIN: 0 LEN: 2024
+receive pkt 236.
+send ack packet: SEQ: 237, ACK: 236, FIN: 0.
+wait for receive.
+receive packet: SEQ: 237 FIN: 0 LEN: 2024
+receive pkt 237.
+send ack packet: SEQ: 238, ACK: 237, FIN: 0.
+wait for receive.
+receive packet: SEQ: 238 FIN: 0 LEN: 2024
+receive pkt 238.
+send ack packet: SEQ: 239, ACK: 238, FIN: 0.
+wait for receive.
+receive packet: SEQ: 239 FIN: 0 LEN: 2024
+receive pkt 239.
+send ack packet: SEQ: 240, ACK: 239, FIN: 0.
+wait for receive.
+receive packet: SEQ: 240 FIN: 0 LEN: 2024
+receive pkt 240.
+send ack packet: SEQ: 241, ACK: 240, FIN: 0.
+wait for receive.
+receive packet: SEQ: 241 FIN: 0 LEN: 2024
+receive pkt 241.
+send ack packet: SEQ: 242, ACK: 241, FIN: 0.
+wait for receive.
+receive packet: SEQ: 242 FIN: 0 LEN: 2024
+receive pkt 242.
+send ack packet: SEQ: 243, ACK: 242, FIN: 0.
+wait for receive.
+receive packet: SEQ: 243 FIN: 0 LEN: 2024
+receive pkt 243.
+send ack packet: SEQ: 244, ACK: 243, FIN: 0.
+wait for receive.
+receive packet: SEQ: 244 FIN: 0 LEN: 2024
+receive pkt 244.
+send ack packet: SEQ: 245, ACK: 244, FIN: 0.
+wait for receive.
+receive packet: SEQ: 245 FIN: 0 LEN: 2024
+receive pkt 245.
+send ack packet: SEQ: 246, ACK: 245, FIN: 0.
+wait for receive.
+receive packet: SEQ: 246 FIN: 0 LEN: 2024
+receive pkt 246.
+send ack packet: SEQ: 247, ACK: 246, FIN: 0.
+wait for receive.
+receive packet: SEQ: 247 FIN: 0 LEN: 2024
+receive pkt 247.
+send ack packet: SEQ: 248, ACK: 247, FIN: 0.
+wait for receive.
+receive packet: SEQ: 248 FIN: 0 LEN: 2024
+receive pkt 248.
+send ack packet: SEQ: 249, ACK: 248, FIN: 0.
+wait for receive.
+receive packet: SEQ: 249 FIN: 0 LEN: 2024
+receive pkt 249.
+send ack packet: SEQ: 250, ACK: 249, FIN: 0.
+wait for receive.
+receive packet: SEQ: 250 FIN: 0 LEN: 2024
+receive pkt 250.
+send ack packet: SEQ: 251, ACK: 250, FIN: 0.
+wait for receive.
+receive packet: SEQ: 251 FIN: 0 LEN: 2024
+receive pkt 251.
+send ack packet: SEQ: 252, ACK: 251, FIN: 0.
+wait for receive.
+receive packet: SEQ: 252 FIN: 0 LEN: 2024
+receive pkt 252.
+send ack packet: SEQ: 253, ACK: 252, FIN: 0.
+wait for receive.
+receive packet: SEQ: 253 FIN: 0 LEN: 2024
+receive pkt 253.
+send ack packet: SEQ: 254, ACK: 253, FIN: 0.
+wait for receive.
+receive packet: SEQ: 254 FIN: 0 LEN: 2024
+receive pkt 254.
+send ack packet: SEQ: 255, ACK: 254, FIN: 0.
+wait for receive.
+receive packet: SEQ: 255 FIN: 0 LEN: 2024
+receive pkt 255.
+send ack packet: SEQ: 256, ACK: 255, FIN: 0.
+wait for receive.
+receive packet: SEQ: 256 FIN: 0 LEN: 2024
+receive pkt 256.
+send ack packet: SEQ: 257, ACK: 256, FIN: 0.
+wait for receive.
+receive packet: SEQ: 257 FIN: 0 LEN: 2024
+receive pkt 257.
+send ack packet: SEQ: 258, ACK: 257, FIN: 0.
+wait for receive.
+receive packet: SEQ: 258 FIN: 0 LEN: 2024
+receive pkt 258.
+send ack packet: SEQ: 259, ACK: 258, FIN: 0.
+wait for receive.
+receive packet: SEQ: 259 FIN: 0 LEN: 2024
+receive pkt 259.
+send ack packet: SEQ: 260, ACK: 259, FIN: 0.
+wait for receive.
+receive packet: SEQ: 260 FIN: 0 LEN: 2024
+receive pkt 260.
+send ack packet: SEQ: 261, ACK: 260, FIN: 0.
+wait for receive.
+receive packet: SEQ: 261 FIN: 0 LEN: 2024
+receive pkt 261.
+send ack packet: SEQ: 262, ACK: 261, FIN: 0.
+wait for receive.
+receive packet: SEQ: 262 FIN: 0 LEN: 2024
+receive pkt 262.
+send ack packet: SEQ: 263, ACK: 262, FIN: 0.
+wait for receive.
+receive packet: SEQ: 263 FIN: 0 LEN: 2024
+receive pkt 263.
+send ack packet: SEQ: 264, ACK: 263, FIN: 0.
+wait for receive.
+receive packet: SEQ: 264 FIN: 0 LEN: 2024
+receive pkt 264.
+send ack packet: SEQ: 265, ACK: 264, FIN: 0.
+wait for receive.
+receive packet: SEQ: 265 FIN: 0 LEN: 2024
+receive pkt 265.
+send ack packet: SEQ: 266, ACK: 265, FIN: 0.
+wait for receive.
+receive packet: SEQ: 266 FIN: 0 LEN: 2024
+receive pkt 266.
+send ack packet: SEQ: 267, ACK: 266, FIN: 0.
+wait for receive.
+receive packet: SEQ: 267 FIN: 0 LEN: 2024
+receive pkt 267.
+send ack packet: SEQ: 268, ACK: 267, FIN: 0.
+wait for receive.
+receive packet: SEQ: 268 FIN: 0 LEN: 2024
+receive pkt 268.
+send ack packet: SEQ: 269, ACK: 268, FIN: 0.
+wait for receive.
+receive packet: SEQ: 269 FIN: 0 LEN: 2024
+receive pkt 269.
+send ack packet: SEQ: 270, ACK: 269, FIN: 0.
+wait for receive.
+receive packet: SEQ: 270 FIN: 0 LEN: 2024
+receive pkt 270.
+send ack packet: SEQ: 271, ACK: 270, FIN: 0.
+wait for receive.
+receive packet: SEQ: 271 FIN: 0 LEN: 2024
+receive pkt 271.
+send ack packet: SEQ: 272, ACK: 271, FIN: 0.
+wait for receive.
+receive packet: SEQ: 272 FIN: 0 LEN: 2024
+receive pkt 272.
+send ack packet: SEQ: 273, ACK: 272, FIN: 0.
+wait for receive.
+receive packet: SEQ: 273 FIN: 0 LEN: 2024
+receive pkt 273.
+send ack packet: SEQ: 274, ACK: 273, FIN: 0.
+wait for receive.
+receive packet: SEQ: 274 FIN: 0 LEN: 2024
+receive pkt 274.
+send ack packet: SEQ: 275, ACK: 274, FIN: 0.
+wait for receive.
+receive packet: SEQ: 275 FIN: 0 LEN: 2024
+receive pkt 275.
+send ack packet: SEQ: 276, ACK: 275, FIN: 0.
+wait for receive.
+receive packet: SEQ: 276 FIN: 0 LEN: 2024
+receive pkt 276.
+send ack packet: SEQ: 277, ACK: 276, FIN: 0.
+wait for receive.
+receive packet: SEQ: 277 FIN: 0 LEN: 2024
+receive pkt 277.
+send ack packet: SEQ: 278, ACK: 277, FIN: 0.
+wait for receive.
+receive packet: SEQ: 278 FIN: 0 LEN: 2024
+receive pkt 278.
+send ack packet: SEQ: 279, ACK: 278, FIN: 0.
+wait for receive.
+receive packet: SEQ: 279 FIN: 0 LEN: 2024
+receive pkt 279.
+send ack packet: SEQ: 280, ACK: 279, FIN: 0.
+wait for receive.
+receive packet: SEQ: 280 FIN: 0 LEN: 2024
+receive pkt 280.
+send ack packet: SEQ: 281, ACK: 280, FIN: 0.
+wait for receive.
+receive packet: SEQ: 281 FIN: 0 LEN: 2024
+receive pkt 281.
+send ack packet: SEQ: 282, ACK: 281, FIN: 0.
+wait for receive.
+receive packet: SEQ: 282 FIN: 0 LEN: 2024
+receive pkt 282.
+send ack packet: SEQ: 283, ACK: 282, FIN: 0.
+wait for receive.
+receive packet: SEQ: 283 FIN: 0 LEN: 2024
+receive pkt 283.
+send ack packet: SEQ: 284, ACK: 283, FIN: 0.
+wait for receive.
+receive packet: SEQ: 284 FIN: 0 LEN: 2024
+receive pkt 284.
+send ack packet: SEQ: 285, ACK: 284, FIN: 0.
+wait for receive.
+receive packet: SEQ: 285 FIN: 0 LEN: 2024
+receive pkt 285.
+send ack packet: SEQ: 286, ACK: 285, FIN: 0.
+wait for receive.
+receive packet: SEQ: 286 FIN: 0 LEN: 2024
+receive pkt 286.
+send ack packet: SEQ: 287, ACK: 286, FIN: 0.
+wait for receive.
+receive packet: SEQ: 287 FIN: 0 LEN: 2024
+receive pkt 287.
+send ack packet: SEQ: 288, ACK: 287, FIN: 0.
+wait for receive.
+receive packet: SEQ: 288 FIN: 0 LEN: 2024
+receive pkt 288.
+send ack packet: SEQ: 289, ACK: 288, FIN: 0.
+wait for receive.
+receive packet: SEQ: 289 FIN: 0 LEN: 2024
+receive pkt 289.
+send ack packet: SEQ: 290, ACK: 289, FIN: 0.
+wait for receive.
+receive packet: SEQ: 290 FIN: 0 LEN: 2024
+receive pkt 290.
+send ack packet: SEQ: 291, ACK: 290, FIN: 0.
+wait for receive.
+receive packet: SEQ: 291 FIN: 0 LEN: 2024
+receive pkt 291.
+send ack packet: SEQ: 292, ACK: 291, FIN: 0.
+wait for receive.
+receive packet: SEQ: 292 FIN: 0 LEN: 2024
+receive pkt 292.
+send ack packet: SEQ: 293, ACK: 292, FIN: 0.
+wait for receive.
+receive packet: SEQ: 293 FIN: 0 LEN: 2024
+receive pkt 293.
+send ack packet: SEQ: 294, ACK: 293, FIN: 0.
+wait for receive.
+receive packet: SEQ: 294 FIN: 0 LEN: 2024
+receive pkt 294.
+send ack packet: SEQ: 295, ACK: 294, FIN: 0.
+wait for receive.
+receive packet: SEQ: 295 FIN: 0 LEN: 2024
+receive pkt 295.
+send ack packet: SEQ: 296, ACK: 295, FIN: 0.
+wait for receive.
+receive packet: SEQ: 296 FIN: 0 LEN: 2024
+receive pkt 296.
+send ack packet: SEQ: 297, ACK: 296, FIN: 0.
+wait for receive.
+receive packet: SEQ: 297 FIN: 0 LEN: 2024
+receive pkt 297.
+send ack packet: SEQ: 298, ACK: 297, FIN: 0.
+wait for receive.
+receive packet: SEQ: 298 FIN: 0 LEN: 2024
+receive pkt 298.
+send ack packet: SEQ: 299, ACK: 298, FIN: 0.
+wait for receive.
+receive packet: SEQ: 299 FIN: 0 LEN: 2024
+receive pkt 299.
+send ack packet: SEQ: 300, ACK: 299, FIN: 0.
+wait for receive.
+receive packet: SEQ: 300 FIN: 0 LEN: 2024
+receive pkt 300.
+send ack packet: SEQ: 301, ACK: 300, FIN: 0.
+wait for receive.
+receive packet: SEQ: 301 FIN: 0 LEN: 2024
+receive pkt 301.
+send ack packet: SEQ: 302, ACK: 301, FIN: 0.
+wait for receive.
+receive packet: SEQ: 302 FIN: 0 LEN: 2024
+receive pkt 302.
+send ack packet: SEQ: 303, ACK: 302, FIN: 0.
+wait for receive.
+receive packet: SEQ: 303 FIN: 0 LEN: 2024
+receive pkt 303.
+send ack packet: SEQ: 304, ACK: 303, FIN: 0.
+wait for receive.
+receive packet: SEQ: 304 FIN: 0 LEN: 2024
+receive pkt 304.
+send ack packet: SEQ: 305, ACK: 304, FIN: 0.
+wait for receive.
+receive packet: SEQ: 305 FIN: 0 LEN: 2024
+receive pkt 305.
+send ack packet: SEQ: 306, ACK: 305, FIN: 0.
+wait for receive.
+receive packet: SEQ: 306 FIN: 0 LEN: 2024
+receive pkt 306.
+send ack packet: SEQ: 307, ACK: 306, FIN: 0.
+wait for receive.
+receive packet: SEQ: 307 FIN: 0 LEN: 2024
+receive pkt 307.
+send ack packet: SEQ: 308, ACK: 307, FIN: 0.
+wait for receive.
+receive packet: SEQ: 308 FIN: 0 LEN: 2024
+receive pkt 308.
+send ack packet: SEQ: 309, ACK: 308, FIN: 0.
+wait for receive.
+receive packet: SEQ: 309 FIN: 0 LEN: 2024
+receive pkt 309.
+send ack packet: SEQ: 310, ACK: 309, FIN: 0.
+wait for receive.
+receive packet: SEQ: 310 FIN: 0 LEN: 2024
+receive pkt 310.
+send ack packet: SEQ: 311, ACK: 310, FIN: 0.
+wait for receive.
+receive packet: SEQ: 311 FIN: 0 LEN: 2024
+receive pkt 311.
+send ack packet: SEQ: 312, ACK: 311, FIN: 0.
+wait for receive.
+receive packet: SEQ: 312 FIN: 0 LEN: 2024
+receive pkt 312.
+send ack packet: SEQ: 313, ACK: 312, FIN: 0.
+wait for receive.
+receive packet: SEQ: 313 FIN: 0 LEN: 2024
+receive pkt 313.
+send ack packet: SEQ: 314, ACK: 313, FIN: 0.
+wait for receive.
+receive packet: SEQ: 314 FIN: 0 LEN: 2024
+receive pkt 314.
+send ack packet: SEQ: 315, ACK: 314, FIN: 0.
+wait for receive.
+receive packet: SEQ: 315 FIN: 0 LEN: 2024
+receive pkt 315.
+send ack packet: SEQ: 316, ACK: 315, FIN: 0.
+wait for receive.
+receive packet: SEQ: 316 FIN: 0 LEN: 2024
+receive pkt 316.
+send ack packet: SEQ: 317, ACK: 316, FIN: 0.
+wait for receive.
+receive packet: SEQ: 317 FIN: 0 LEN: 2024
+receive pkt 317.
+send ack packet: SEQ: 318, ACK: 317, FIN: 0.
+wait for receive.
+receive packet: SEQ: 318 FIN: 0 LEN: 2024
+receive pkt 318.
+send ack packet: SEQ: 319, ACK: 318, FIN: 0.
+wait for receive.
+receive packet: SEQ: 319 FIN: 0 LEN: 2024
+receive pkt 319.
+send ack packet: SEQ: 320, ACK: 319, FIN: 0.
+wait for receive.
+receive packet: SEQ: 320 FIN: 0 LEN: 2024
+receive pkt 320.
+send ack packet: SEQ: 321, ACK: 320, FIN: 0.
+wait for receive.
+receive packet: SEQ: 321 FIN: 0 LEN: 2024
+receive pkt 321.
+send ack packet: SEQ: 322, ACK: 321, FIN: 0.
+wait for receive.
+receive packet: SEQ: 322 FIN: 0 LEN: 2024
+receive pkt 322.
+send ack packet: SEQ: 323, ACK: 322, FIN: 0.
+wait for receive.
+receive packet: SEQ: 323 FIN: 0 LEN: 2024
+receive pkt 323.
+send ack packet: SEQ: 324, ACK: 323, FIN: 0.
+wait for receive.
+receive packet: SEQ: 324 FIN: 0 LEN: 2024
+receive pkt 324.
+send ack packet: SEQ: 325, ACK: 324, FIN: 0.
+wait for receive.
+receive packet: SEQ: 325 FIN: 0 LEN: 2024
+receive pkt 325.
+send ack packet: SEQ: 326, ACK: 325, FIN: 0.
+wait for receive.
+receive packet: SEQ: 326 FIN: 0 LEN: 2024
+receive pkt 326.
+send ack packet: SEQ: 327, ACK: 326, FIN: 0.
+wait for receive.
+receive packet: SEQ: 327 FIN: 0 LEN: 2024
+receive pkt 327.
+send ack packet: SEQ: 328, ACK: 327, FIN: 0.
+wait for receive.
+receive packet: SEQ: 328 FIN: 0 LEN: 2024
+receive pkt 328.
+send ack packet: SEQ: 329, ACK: 328, FIN: 0.
+wait for receive.
+receive packet: SEQ: 329 FIN: 0 LEN: 2024
+receive pkt 329.
+send ack packet: SEQ: 330, ACK: 329, FIN: 0.
+wait for receive.
+receive packet: SEQ: 330 FIN: 0 LEN: 2024
+receive pkt 330.
+send ack packet: SEQ: 331, ACK: 330, FIN: 0.
+wait for receive.
+receive packet: SEQ: 331 FIN: 0 LEN: 2024
+receive pkt 331.
+send ack packet: SEQ: 332, ACK: 331, FIN: 0.
+wait for receive.
+receive packet: SEQ: 332 FIN: 0 LEN: 2024
+receive pkt 332.
+send ack packet: SEQ: 333, ACK: 332, FIN: 0.
+wait for receive.
+receive packet: SEQ: 333 FIN: 0 LEN: 2024
+receive pkt 333.
+send ack packet: SEQ: 334, ACK: 333, FIN: 0.
+wait for receive.
+receive packet: SEQ: 334 FIN: 0 LEN: 2024
+receive pkt 334.
+send ack packet: SEQ: 335, ACK: 334, FIN: 0.
+wait for receive.
+receive packet: SEQ: 335 FIN: 0 LEN: 2024
+receive pkt 335.
+send ack packet: SEQ: 336, ACK: 335, FIN: 0.
+wait for receive.
+receive packet: SEQ: 336 FIN: 0 LEN: 2024
+receive pkt 336.
+send ack packet: SEQ: 337, ACK: 336, FIN: 0.
+wait for receive.
+receive packet: SEQ: 337 FIN: 0 LEN: 2024
+receive pkt 337.
+send ack packet: SEQ: 338, ACK: 337, FIN: 0.
+wait for receive.
+receive packet: SEQ: 338 FIN: 0 LEN: 2024
+receive pkt 338.
+send ack packet: SEQ: 339, ACK: 338, FIN: 0.
+wait for receive.
+receive packet: SEQ: 339 FIN: 0 LEN: 2024
+receive pkt 339.
+send ack packet: SEQ: 340, ACK: 339, FIN: 0.
+wait for receive.
+receive packet: SEQ: 340 FIN: 0 LEN: 2024
+receive pkt 340.
+send ack packet: SEQ: 341, ACK: 340, FIN: 0.
+wait for receive.
+receive packet: SEQ: 341 FIN: 0 LEN: 2024
+receive pkt 341.
+send ack packet: SEQ: 342, ACK: 341, FIN: 0.
+wait for receive.
+receive packet: SEQ: 342 FIN: 0 LEN: 2024
+receive pkt 342.
+send ack packet: SEQ: 343, ACK: 342, FIN: 0.
+wait for receive.
+receive packet: SEQ: 343 FIN: 0 LEN: 2024
+receive pkt 343.
+send ack packet: SEQ: 344, ACK: 343, FIN: 0.
+wait for receive.
+receive packet: SEQ: 344 FIN: 0 LEN: 2024
+receive pkt 344.
+send ack packet: SEQ: 345, ACK: 344, FIN: 0.
+wait for receive.
+receive packet: SEQ: 345 FIN: 0 LEN: 2024
+receive pkt 345.
+send ack packet: SEQ: 346, ACK: 345, FIN: 0.
+wait for receive.
+receive packet: SEQ: 346 FIN: 0 LEN: 2024
+receive pkt 346.
+send ack packet: SEQ: 347, ACK: 346, FIN: 0.
+wait for receive.
+receive packet: SEQ: 347 FIN: 0 LEN: 2024
+receive pkt 347.
+send ack packet: SEQ: 348, ACK: 347, FIN: 0.
+wait for receive.
+receive packet: SEQ: 348 FIN: 0 LEN: 2024
+receive pkt 348.
+send ack packet: SEQ: 349, ACK: 348, FIN: 0.
+wait for receive.
+receive packet: SEQ: 349 FIN: 0 LEN: 2024
+receive pkt 349.
+send ack packet: SEQ: 350, ACK: 349, FIN: 0.
+wait for receive.
+receive packet: SEQ: 350 FIN: 0 LEN: 2024
+receive pkt 350.
+send ack packet: SEQ: 351, ACK: 350, FIN: 0.
+wait for receive.
+receive packet: SEQ: 351 FIN: 0 LEN: 2024
+receive pkt 351.
+send ack packet: SEQ: 352, ACK: 351, FIN: 0.
+wait for receive.
+receive packet: SEQ: 352 FIN: 0 LEN: 2024
+receive pkt 352.
+send ack packet: SEQ: 353, ACK: 352, FIN: 0.
+wait for receive.
+receive packet: SEQ: 353 FIN: 0 LEN: 2024
+receive pkt 353.
+send ack packet: SEQ: 354, ACK: 353, FIN: 0.
+wait for receive.
+receive packet: SEQ: 354 FIN: 0 LEN: 2024
+receive pkt 354.
+send ack packet: SEQ: 355, ACK: 354, FIN: 0.
+wait for receive.
+receive packet: SEQ: 355 FIN: 0 LEN: 2024
+receive pkt 355.
+send ack packet: SEQ: 356, ACK: 355, FIN: 0.
+wait for receive.
+receive packet: SEQ: 356 FIN: 0 LEN: 2024
+receive pkt 356.
+send ack packet: SEQ: 357, ACK: 356, FIN: 0.
+wait for receive.
+receive packet: SEQ: 357 FIN: 0 LEN: 2024
+receive pkt 357.
+send ack packet: SEQ: 358, ACK: 357, FIN: 0.
+wait for receive.
+receive packet: SEQ: 358 FIN: 0 LEN: 2024
+receive pkt 358.
+send ack packet: SEQ: 359, ACK: 358, FIN: 0.
+wait for receive.
+receive packet: SEQ: 359 FIN: 0 LEN: 2024
+receive pkt 359.
+send ack packet: SEQ: 360, ACK: 359, FIN: 0.
+wait for receive.
+receive packet: SEQ: 360 FIN: 0 LEN: 2024
+receive pkt 360.
+send ack packet: SEQ: 361, ACK: 360, FIN: 0.
+wait for receive.
+receive packet: SEQ: 361 FIN: 0 LEN: 2024
+receive pkt 361.
+send ack packet: SEQ: 362, ACK: 361, FIN: 0.
+wait for receive.
+receive packet: SEQ: 362 FIN: 0 LEN: 2024
+receive pkt 362.
+send ack packet: SEQ: 363, ACK: 362, FIN: 0.
+wait for receive.
+receive packet: SEQ: 363 FIN: 0 LEN: 2024
+receive pkt 363.
+send ack packet: SEQ: 364, ACK: 363, FIN: 0.
+wait for receive.
+receive packet: SEQ: 364 FIN: 0 LEN: 2024
+receive pkt 364.
+send ack packet: SEQ: 365, ACK: 364, FIN: 0.
+wait for receive.
+receive packet: SEQ: 365 FIN: 0 LEN: 2024
+receive pkt 365.
+send ack packet: SEQ: 366, ACK: 365, FIN: 0.
+wait for receive.
+receive packet: SEQ: 366 FIN: 0 LEN: 2024
+receive pkt 366.
+send ack packet: SEQ: 367, ACK: 366, FIN: 0.
+wait for receive.
+receive packet: SEQ: 367 FIN: 0 LEN: 2024
+receive pkt 367.
+send ack packet: SEQ: 368, ACK: 367, FIN: 0.
+wait for receive.
+receive packet: SEQ: 368 FIN: 0 LEN: 2024
+receive pkt 368.
+send ack packet: SEQ: 369, ACK: 368, FIN: 0.
+wait for receive.
+receive packet: SEQ: 369 FIN: 0 LEN: 2024
+receive pkt 369.
+send ack packet: SEQ: 370, ACK: 369, FIN: 0.
+wait for receive.
+receive packet: SEQ: 370 FIN: 0 LEN: 2024
+receive pkt 370.
+send ack packet: SEQ: 371, ACK: 370, FIN: 0.
+wait for receive.
+receive packet: SEQ: 371 FIN: 0 LEN: 2024
+receive pkt 371.
+send ack packet: SEQ: 372, ACK: 371, FIN: 0.
+wait for receive.
+receive packet: SEQ: 372 FIN: 0 LEN: 2024
+receive pkt 372.
+send ack packet: SEQ: 373, ACK: 372, FIN: 0.
+wait for receive.
+receive packet: SEQ: 373 FIN: 0 LEN: 2024
+receive pkt 373.
+send ack packet: SEQ: 374, ACK: 373, FIN: 0.
+wait for receive.
+receive packet: SEQ: 374 FIN: 0 LEN: 2024
+receive pkt 374.
+send ack packet: SEQ: 375, ACK: 374, FIN: 0.
+wait for receive.
+receive packet: SEQ: 375 FIN: 0 LEN: 2024
+receive pkt 375.
+send ack packet: SEQ: 376, ACK: 375, FIN: 0.
+wait for receive.
+receive packet: SEQ: 376 FIN: 0 LEN: 2024
+receive pkt 376.
+send ack packet: SEQ: 377, ACK: 376, FIN: 0.
+wait for receive.
+receive packet: SEQ: 377 FIN: 0 LEN: 2024
+receive pkt 377.
+send ack packet: SEQ: 378, ACK: 377, FIN: 0.
+wait for receive.
+receive packet: SEQ: 378 FIN: 0 LEN: 2024
+receive pkt 378.
+send ack packet: SEQ: 379, ACK: 378, FIN: 0.
+wait for receive.
+receive packet: SEQ: 379 FIN: 0 LEN: 2024
+receive pkt 379.
+send ack packet: SEQ: 380, ACK: 379, FIN: 0.
+wait for receive.
+receive packet: SEQ: 380 FIN: 0 LEN: 2024
+receive pkt 380.
+send ack packet: SEQ: 381, ACK: 380, FIN: 0.
+wait for receive.
+receive packet: SEQ: 381 FIN: 0 LEN: 2024
+receive pkt 381.
+send ack packet: SEQ: 382, ACK: 381, FIN: 0.
+wait for receive.
+receive packet: SEQ: 382 FIN: 0 LEN: 2024
+receive pkt 382.
+send ack packet: SEQ: 383, ACK: 382, FIN: 0.
+wait for receive.
+receive packet: SEQ: 383 FIN: 0 LEN: 2024
+receive pkt 383.
+send ack packet: SEQ: 384, ACK: 383, FIN: 0.
+wait for receive.
+receive packet: SEQ: 384 FIN: 0 LEN: 2024
+receive pkt 384.
+send ack packet: SEQ: 385, ACK: 384, FIN: 0.
+wait for receive.
+receive packet: SEQ: 385 FIN: 0 LEN: 2024
+receive pkt 385.
+send ack packet: SEQ: 386, ACK: 385, FIN: 0.
+wait for receive.
+receive packet: SEQ: 386 FIN: 0 LEN: 2024
+receive pkt 386.
+send ack packet: SEQ: 387, ACK: 386, FIN: 0.
+wait for receive.
+receive packet: SEQ: 387 FIN: 0 LEN: 2024
+receive pkt 387.
+send ack packet: SEQ: 388, ACK: 387, FIN: 0.
+wait for receive.
+receive packet: SEQ: 388 FIN: 0 LEN: 2024
+receive pkt 388.
+send ack packet: SEQ: 389, ACK: 388, FIN: 0.
+wait for receive.
+receive packet: SEQ: 389 FIN: 0 LEN: 2024
+receive pkt 389.
+send ack packet: SEQ: 390, ACK: 389, FIN: 0.
+wait for receive.
+receive packet: SEQ: 390 FIN: 0 LEN: 2024
+receive pkt 390.
+send ack packet: SEQ: 391, ACK: 390, FIN: 0.
+wait for receive.
+receive packet: SEQ: 391 FIN: 0 LEN: 2024
+receive pkt 391.
+send ack packet: SEQ: 392, ACK: 391, FIN: 0.
+wait for receive.
+receive packet: SEQ: 392 FIN: 0 LEN: 2024
+receive pkt 392.
+send ack packet: SEQ: 393, ACK: 392, FIN: 0.
+wait for receive.
+receive packet: SEQ: 393 FIN: 0 LEN: 2024
+receive pkt 393.
+send ack packet: SEQ: 394, ACK: 393, FIN: 0.
+wait for receive.
+receive packet: SEQ: 394 FIN: 0 LEN: 2024
+receive pkt 394.
+send ack packet: SEQ: 395, ACK: 394, FIN: 0.
+wait for receive.
+receive packet: SEQ: 395 FIN: 0 LEN: 2024
+receive pkt 395.
+send ack packet: SEQ: 396, ACK: 395, FIN: 0.
+wait for receive.
+receive packet: SEQ: 396 FIN: 0 LEN: 2024
+receive pkt 396.
+send ack packet: SEQ: 397, ACK: 396, FIN: 0.
+wait for receive.
+receive packet: SEQ: 397 FIN: 0 LEN: 2024
+receive pkt 397.
+send ack packet: SEQ: 398, ACK: 397, FIN: 0.
+wait for receive.
+receive packet: SEQ: 398 FIN: 0 LEN: 2024
+receive pkt 398.
+send ack packet: SEQ: 399, ACK: 398, FIN: 0.
+wait for receive.
+receive packet: SEQ: 399 FIN: 0 LEN: 2024
+receive pkt 399.
+send ack packet: SEQ: 400, ACK: 399, FIN: 0.
+wait for receive.
+receive packet: SEQ: 400 FIN: 0 LEN: 2024
+receive pkt 400.
+send ack packet: SEQ: 401, ACK: 400, FIN: 0.
+wait for receive.
+receive packet: SEQ: 401 FIN: 0 LEN: 2024
+receive pkt 401.
+send ack packet: SEQ: 402, ACK: 401, FIN: 0.
+wait for receive.
+receive packet: SEQ: 402 FIN: 0 LEN: 2024
+receive pkt 402.
+send ack packet: SEQ: 403, ACK: 402, FIN: 0.
+wait for receive.
+receive packet: SEQ: 403 FIN: 0 LEN: 2024
+receive pkt 403.
+send ack packet: SEQ: 404, ACK: 403, FIN: 0.
+wait for receive.
+receive packet: SEQ: 404 FIN: 0 LEN: 2024
+receive pkt 404.
+send ack packet: SEQ: 405, ACK: 404, FIN: 0.
+wait for receive.
+receive packet: SEQ: 405 FIN: 0 LEN: 2024
+receive pkt 405.
+send ack packet: SEQ: 406, ACK: 405, FIN: 0.
+wait for receive.
+receive packet: SEQ: 406 FIN: 0 LEN: 2024
+receive pkt 406.
+send ack packet: SEQ: 407, ACK: 406, FIN: 0.
+wait for receive.
+receive packet: SEQ: 407 FIN: 0 LEN: 2024
+receive pkt 407.
+send ack packet: SEQ: 408, ACK: 407, FIN: 0.
+wait for receive.
+receive packet: SEQ: 408 FIN: 0 LEN: 2024
+receive pkt 408.
+send ack packet: SEQ: 409, ACK: 408, FIN: 0.
+wait for receive.
+receive packet: SEQ: 409 FIN: 0 LEN: 2024
+receive pkt 409.
+send ack packet: SEQ: 410, ACK: 409, FIN: 0.
+wait for receive.
+receive packet: SEQ: 410 FIN: 0 LEN: 2024
+receive pkt 410.
+send ack packet: SEQ: 411, ACK: 410, FIN: 0.
+wait for receive.
+receive packet: SEQ: 411 FIN: 0 LEN: 2024
+receive pkt 411.
+send ack packet: SEQ: 412, ACK: 411, FIN: 0.
+wait for receive.
+receive packet: SEQ: 412 FIN: 0 LEN: 2024
+receive pkt 412.
+send ack packet: SEQ: 413, ACK: 412, FIN: 0.
+wait for receive.
+receive packet: SEQ: 413 FIN: 0 LEN: 2024
+receive pkt 413.
+send ack packet: SEQ: 414, ACK: 413, FIN: 0.
+wait for receive.
+receive packet: SEQ: 414 FIN: 0 LEN: 2024
+receive pkt 414.
+send ack packet: SEQ: 415, ACK: 414, FIN: 0.
+wait for receive.
+receive packet: SEQ: 415 FIN: 0 LEN: 2024
+receive pkt 415.
+send ack packet: SEQ: 416, ACK: 415, FIN: 0.
+wait for receive.
+receive packet: SEQ: 416 FIN: 0 LEN: 2024
+receive pkt 416.
+send ack packet: SEQ: 417, ACK: 416, FIN: 0.
+wait for receive.
+receive packet: SEQ: 417 FIN: 0 LEN: 2024
+receive pkt 417.
+send ack packet: SEQ: 418, ACK: 417, FIN: 0.
+wait for receive.
+receive packet: SEQ: 418 FIN: 0 LEN: 2024
+receive pkt 418.
+send ack packet: SEQ: 419, ACK: 418, FIN: 0.
+wait for receive.
+receive packet: SEQ: 419 FIN: 0 LEN: 2024
+receive pkt 419.
+send ack packet: SEQ: 420, ACK: 419, FIN: 0.
+wait for receive.
+receive packet: SEQ: 420 FIN: 0 LEN: 2024
+receive pkt 420.
+send ack packet: SEQ: 421, ACK: 420, FIN: 0.
+wait for receive.
+receive packet: SEQ: 421 FIN: 0 LEN: 2024
+receive pkt 421.
+send ack packet: SEQ: 422, ACK: 421, FIN: 0.
+wait for receive.
+receive packet: SEQ: 422 FIN: 0 LEN: 2024
+receive pkt 422.
+send ack packet: SEQ: 423, ACK: 422, FIN: 0.
+wait for receive.
+receive packet: SEQ: 423 FIN: 0 LEN: 2024
+receive pkt 423.
+send ack packet: SEQ: 424, ACK: 423, FIN: 0.
+wait for receive.
+receive packet: SEQ: 424 FIN: 0 LEN: 2024
+receive pkt 424.
+send ack packet: SEQ: 425, ACK: 424, FIN: 0.
+wait for receive.
+receive packet: SEQ: 425 FIN: 0 LEN: 2024
+receive pkt 425.
+send ack packet: SEQ: 426, ACK: 425, FIN: 0.
+wait for receive.
+receive packet: SEQ: 426 FIN: 0 LEN: 2024
+receive pkt 426.
+send ack packet: SEQ: 427, ACK: 426, FIN: 0.
+wait for receive.
+receive packet: SEQ: 427 FIN: 0 LEN: 2024
+receive pkt 427.
+send ack packet: SEQ: 428, ACK: 427, FIN: 0.
+wait for receive.
+receive packet: SEQ: 428 FIN: 0 LEN: 2024
+receive pkt 428.
+send ack packet: SEQ: 429, ACK: 428, FIN: 0.
+wait for receive.
+receive packet: SEQ: 429 FIN: 0 LEN: 2024
+receive pkt 429.
+send ack packet: SEQ: 430, ACK: 429, FIN: 0.
+wait for receive.
+receive packet: SEQ: 430 FIN: 0 LEN: 2024
+receive pkt 430.
+send ack packet: SEQ: 431, ACK: 430, FIN: 0.
+wait for receive.
+receive packet: SEQ: 431 FIN: 0 LEN: 2024
+receive pkt 431.
+send ack packet: SEQ: 432, ACK: 431, FIN: 0.
+wait for receive.
+receive packet: SEQ: 432 FIN: 0 LEN: 2024
+receive pkt 432.
+send ack packet: SEQ: 433, ACK: 432, FIN: 0.
+wait for receive.
+receive packet: SEQ: 433 FIN: 0 LEN: 2024
+receive pkt 433.
+send ack packet: SEQ: 434, ACK: 433, FIN: 0.
+wait for receive.
+receive packet: SEQ: 434 FIN: 0 LEN: 2024
+receive pkt 434.
+send ack packet: SEQ: 435, ACK: 434, FIN: 0.
+wait for receive.
+receive packet: SEQ: 435 FIN: 0 LEN: 2024
+receive pkt 435.
+send ack packet: SEQ: 436, ACK: 435, FIN: 0.
+wait for receive.
+receive packet: SEQ: 436 FIN: 0 LEN: 2024
+receive pkt 436.
+send ack packet: SEQ: 437, ACK: 436, FIN: 0.
+wait for receive.
+receive packet: SEQ: 437 FIN: 0 LEN: 2024
+receive pkt 437.
+send ack packet: SEQ: 438, ACK: 437, FIN: 0.
+wait for receive.
+receive packet: SEQ: 438 FIN: 0 LEN: 2024
+receive pkt 438.
+send ack packet: SEQ: 439, ACK: 438, FIN: 0.
+wait for receive.
+receive packet: SEQ: 439 FIN: 0 LEN: 2024
+receive pkt 439.
+send ack packet: SEQ: 440, ACK: 439, FIN: 0.
+wait for receive.
+receive packet: SEQ: 440 FIN: 0 LEN: 2024
+receive pkt 440.
+send ack packet: SEQ: 441, ACK: 440, FIN: 0.
+wait for receive.
+receive packet: SEQ: 441 FIN: 0 LEN: 2024
+receive pkt 441.
+send ack packet: SEQ: 442, ACK: 441, FIN: 0.
+wait for receive.
+receive packet: SEQ: 442 FIN: 0 LEN: 2024
+receive pkt 442.
+send ack packet: SEQ: 443, ACK: 442, FIN: 0.
+wait for receive.
+receive packet: SEQ: 443 FIN: 0 LEN: 2024
+receive pkt 443.
+send ack packet: SEQ: 444, ACK: 443, FIN: 0.
+wait for receive.
+receive packet: SEQ: 444 FIN: 0 LEN: 2024
+receive pkt 444.
+send ack packet: SEQ: 445, ACK: 444, FIN: 0.
+wait for receive.
+receive packet: SEQ: 445 FIN: 0 LEN: 2024
+receive pkt 445.
+send ack packet: SEQ: 446, ACK: 445, FIN: 0.
+wait for receive.
+receive packet: SEQ: 446 FIN: 0 LEN: 2024
+receive pkt 446.
+send ack packet: SEQ: 447, ACK: 446, FIN: 0.
+wait for receive.
+receive packet: SEQ: 447 FIN: 0 LEN: 2024
+receive pkt 447.
+send ack packet: SEQ: 448, ACK: 447, FIN: 0.
+wait for receive.
+receive packet: SEQ: 448 FIN: 0 LEN: 2024
+receive pkt 448.
+send ack packet: SEQ: 449, ACK: 448, FIN: 0.
+wait for receive.
+receive packet: SEQ: 449 FIN: 0 LEN: 2024
+receive pkt 449.
+send ack packet: SEQ: 450, ACK: 449, FIN: 0.
+wait for receive.
+receive packet: SEQ: 450 FIN: 0 LEN: 2024
+receive pkt 450.
+send ack packet: SEQ: 451, ACK: 450, FIN: 0.
+wait for receive.
+receive packet: SEQ: 451 FIN: 0 LEN: 2024
+receive pkt 451.
+send ack packet: SEQ: 452, ACK: 451, FIN: 0.
+wait for receive.
+receive packet: SEQ: 452 FIN: 0 LEN: 2024
+receive pkt 452.
+send ack packet: SEQ: 453, ACK: 452, FIN: 0.
+wait for receive.
+receive packet: SEQ: 453 FIN: 0 LEN: 2024
+receive pkt 453.
+send ack packet: SEQ: 454, ACK: 453, FIN: 0.
+wait for receive.
+receive packet: SEQ: 454 FIN: 0 LEN: 2024
+receive pkt 454.
+send ack packet: SEQ: 455, ACK: 454, FIN: 0.
+wait for receive.
+receive packet: SEQ: 455 FIN: 0 LEN: 2024
+receive pkt 455.
+send ack packet: SEQ: 456, ACK: 455, FIN: 0.
+wait for receive.
+receive packet: SEQ: 456 FIN: 0 LEN: 2024
+receive pkt 456.
+send ack packet: SEQ: 457, ACK: 456, FIN: 0.
+wait for receive.
+receive packet: SEQ: 457 FIN: 0 LEN: 2024
+receive pkt 457.
+send ack packet: SEQ: 458, ACK: 457, FIN: 0.
+wait for receive.
+receive packet: SEQ: 458 FIN: 0 LEN: 2024
+receive pkt 458.
+send ack packet: SEQ: 459, ACK: 458, FIN: 0.
+wait for receive.
+receive packet: SEQ: 459 FIN: 0 LEN: 2024
+receive pkt 459.
+send ack packet: SEQ: 460, ACK: 459, FIN: 0.
+wait for receive.
+receive packet: SEQ: 460 FIN: 0 LEN: 2024
+receive pkt 460.
+send ack packet: SEQ: 461, ACK: 460, FIN: 0.
+wait for receive.
+receive packet: SEQ: 461 FIN: 0 LEN: 2024
+receive pkt 461.
+send ack packet: SEQ: 462, ACK: 461, FIN: 0.
+wait for receive.
+receive packet: SEQ: 462 FIN: 0 LEN: 2024
+receive pkt 462.
+send ack packet: SEQ: 463, ACK: 462, FIN: 0.
+wait for receive.
+receive packet: SEQ: 463 FIN: 0 LEN: 2024
+receive pkt 463.
+send ack packet: SEQ: 464, ACK: 463, FIN: 0.
+wait for receive.
+receive packet: SEQ: 464 FIN: 0 LEN: 2024
+receive pkt 464.
+send ack packet: SEQ: 465, ACK: 464, FIN: 0.
+wait for receive.
+receive packet: SEQ: 465 FIN: 0 LEN: 2024
+receive pkt 465.
+send ack packet: SEQ: 466, ACK: 465, FIN: 0.
+wait for receive.
+receive packet: SEQ: 466 FIN: 0 LEN: 2024
+receive pkt 466.
+send ack packet: SEQ: 467, ACK: 466, FIN: 0.
+wait for receive.
+receive packet: SEQ: 467 FIN: 0 LEN: 2024
+receive pkt 467.
+send ack packet: SEQ: 468, ACK: 467, FIN: 0.
+wait for receive.
+receive packet: SEQ: 468 FIN: 0 LEN: 2024
+receive pkt 468.
+send ack packet: SEQ: 469, ACK: 468, FIN: 0.
+wait for receive.
+receive packet: SEQ: 469 FIN: 0 LEN: 2024
+receive pkt 469.
+send ack packet: SEQ: 470, ACK: 469, FIN: 0.
+wait for receive.
+receive packet: SEQ: 470 FIN: 0 LEN: 2024
+receive pkt 470.
+send ack packet: SEQ: 471, ACK: 470, FIN: 0.
+wait for receive.
+receive packet: SEQ: 471 FIN: 0 LEN: 2024
+receive pkt 471.
+send ack packet: SEQ: 472, ACK: 471, FIN: 0.
+wait for receive.
+receive packet: SEQ: 472 FIN: 0 LEN: 2024
+receive pkt 472.
+send ack packet: SEQ: 473, ACK: 472, FIN: 0.
+wait for receive.
+receive packet: SEQ: 473 FIN: 0 LEN: 2024
+receive pkt 473.
+send ack packet: SEQ: 474, ACK: 473, FIN: 0.
+wait for receive.
+receive packet: SEQ: 474 FIN: 0 LEN: 2024
+receive pkt 474.
+send ack packet: SEQ: 475, ACK: 474, FIN: 0.
+wait for receive.
+receive packet: SEQ: 475 FIN: 0 LEN: 2024
+receive pkt 475.
+send ack packet: SEQ: 476, ACK: 475, FIN: 0.
+wait for receive.
+receive packet: SEQ: 476 FIN: 0 LEN: 2024
+receive pkt 476.
+send ack packet: SEQ: 477, ACK: 476, FIN: 0.
+wait for receive.
+receive packet: SEQ: 477 FIN: 0 LEN: 2024
+receive pkt 477.
+send ack packet: SEQ: 478, ACK: 477, FIN: 0.
+wait for receive.
+receive packet: SEQ: 478 FIN: 0 LEN: 2024
+receive pkt 478.
+send ack packet: SEQ: 479, ACK: 478, FIN: 0.
+wait for receive.
+receive packet: SEQ: 479 FIN: 0 LEN: 2024
+receive pkt 479.
+send ack packet: SEQ: 480, ACK: 479, FIN: 0.
+wait for receive.
+receive packet: SEQ: 480 FIN: 0 LEN: 2024
+receive pkt 480.
+send ack packet: SEQ: 481, ACK: 480, FIN: 0.
+wait for receive.
+receive packet: SEQ: 481 FIN: 0 LEN: 2024
+receive pkt 481.
+send ack packet: SEQ: 482, ACK: 481, FIN: 0.
+wait for receive.
+receive packet: SEQ: 482 FIN: 0 LEN: 2024
+receive pkt 482.
+send ack packet: SEQ: 483, ACK: 482, FIN: 0.
+wait for receive.
+receive packet: SEQ: 483 FIN: 0 LEN: 2024
+receive pkt 483.
+send ack packet: SEQ: 484, ACK: 483, FIN: 0.
+wait for receive.
+receive packet: SEQ: 484 FIN: 0 LEN: 2024
+receive pkt 484.
+send ack packet: SEQ: 485, ACK: 484, FIN: 0.
+wait for receive.
+receive packet: SEQ: 485 FIN: 0 LEN: 2024
+receive pkt 485.
+send ack packet: SEQ: 486, ACK: 485, FIN: 0.
+wait for receive.
+receive packet: SEQ: 486 FIN: 0 LEN: 2024
+receive pkt 486.
+send ack packet: SEQ: 487, ACK: 486, FIN: 0.
+wait for receive.
+receive packet: SEQ: 487 FIN: 0 LEN: 2024
+receive pkt 487.
+send ack packet: SEQ: 488, ACK: 487, FIN: 0.
+wait for receive.
+receive packet: SEQ: 488 FIN: 0 LEN: 2024
+receive pkt 488.
+send ack packet: SEQ: 489, ACK: 488, FIN: 0.
+wait for receive.
+receive packet: SEQ: 489 FIN: 0 LEN: 2024
+receive pkt 489.
+send ack packet: SEQ: 490, ACK: 489, FIN: 0.
+wait for receive.
+receive packet: SEQ: 490 FIN: 0 LEN: 2024
+receive pkt 490.
+send ack packet: SEQ: 491, ACK: 490, FIN: 0.
+wait for receive.
+receive packet: SEQ: 491 FIN: 0 LEN: 2024
+receive pkt 491.
+send ack packet: SEQ: 492, ACK: 491, FIN: 0.
+wait for receive.
+receive packet: SEQ: 492 FIN: 0 LEN: 2024
+receive pkt 492.
+send ack packet: SEQ: 493, ACK: 492, FIN: 0.
+wait for receive.
+receive packet: SEQ: 493 FIN: 0 LEN: 2024
+receive pkt 493.
+send ack packet: SEQ: 494, ACK: 493, FIN: 0.
+wait for receive.
+receive packet: SEQ: 494 FIN: 0 LEN: 2024
+receive pkt 494.
+send ack packet: SEQ: 495, ACK: 494, FIN: 0.
+wait for receive.
+receive packet: SEQ: 495 FIN: 0 LEN: 2024
+receive pkt 495.
+send ack packet: SEQ: 496, ACK: 495, FIN: 0.
+wait for receive.
+receive packet: SEQ: 496 FIN: 0 LEN: 2024
+receive pkt 496.
+send ack packet: SEQ: 497, ACK: 496, FIN: 0.
+wait for receive.
+receive packet: SEQ: 497 FIN: 0 LEN: 2024
+receive pkt 497.
+send ack packet: SEQ: 498, ACK: 497, FIN: 0.
+wait for receive.
+receive packet: SEQ: 498 FIN: 0 LEN: 2024
+receive pkt 498.
+send ack packet: SEQ: 499, ACK: 498, FIN: 0.
+wait for receive.
+receive packet: SEQ: 499 FIN: 0 LEN: 2024
+receive pkt 499.
+send ack packet: SEQ: 500, ACK: 499, FIN: 0.
+wait for receive.
+receive packet: SEQ: 500 FIN: 0 LEN: 2024
+receive pkt 500.
+send ack packet: SEQ: 501, ACK: 500, FIN: 0.
+wait for receive.
+receive packet: SEQ: 501 FIN: 0 LEN: 2024
+receive pkt 501.
+send ack packet: SEQ: 502, ACK: 501, FIN: 0.
+wait for receive.
+receive packet: SEQ: 502 FIN: 0 LEN: 2024
+receive pkt 502.
+send ack packet: SEQ: 503, ACK: 502, FIN: 0.
+wait for receive.
+receive packet: SEQ: 503 FIN: 0 LEN: 2024
+receive pkt 503.
+send ack packet: SEQ: 504, ACK: 503, FIN: 0.
+wait for receive.
+receive packet: SEQ: 504 FIN: 0 LEN: 2024
+receive pkt 504.
+send ack packet: SEQ: 505, ACK: 504, FIN: 0.
+wait for receive.
+receive packet: SEQ: 505 FIN: 0 LEN: 2024
+receive pkt 505.
+send ack packet: SEQ: 506, ACK: 505, FIN: 0.
+wait for receive.
+receive packet: SEQ: 506 FIN: 0 LEN: 2024
+receive pkt 506.
+send ack packet: SEQ: 507, ACK: 506, FIN: 0.
+wait for receive.
+receive packet: SEQ: 507 FIN: 0 LEN: 2024
+receive pkt 507.
+send ack packet: SEQ: 508, ACK: 507, FIN: 0.
+wait for receive.
+receive packet: SEQ: 508 FIN: 0 LEN: 2024
+receive pkt 508.
+send ack packet: SEQ: 509, ACK: 508, FIN: 0.
+wait for receive.
+receive packet: SEQ: 509 FIN: 0 LEN: 2024
+receive pkt 509.
+send ack packet: SEQ: 510, ACK: 509, FIN: 0.
+wait for receive.
+receive packet: SEQ: 510 FIN: 0 LEN: 2024
+receive pkt 510.
+send ack packet: SEQ: 511, ACK: 510, FIN: 0.
+wait for receive.
+receive packet: SEQ: 511 FIN: 0 LEN: 2024
+receive pkt 511.
+send ack packet: SEQ: 512, ACK: 511, FIN: 0.
+wait for receive.
+receive packet: SEQ: 512 FIN: 0 LEN: 2024
+receive pkt 512.
+send ack packet: SEQ: 513, ACK: 512, FIN: 0.
+wait for receive.
+receive packet: SEQ: 513 FIN: 0 LEN: 2024
+receive pkt 513.
+send ack packet: SEQ: 514, ACK: 513, FIN: 0.
+wait for receive.
+receive packet: SEQ: 514 FIN: 0 LEN: 2024
+receive pkt 514.
+send ack packet: SEQ: 515, ACK: 514, FIN: 0.
+wait for receive.
+receive packet: SEQ: 515 FIN: 0 LEN: 2024
+receive pkt 515.
+send ack packet: SEQ: 516, ACK: 515, FIN: 0.
+wait for receive.
+receive packet: SEQ: 516 FIN: 0 LEN: 2024
+receive pkt 516.
+send ack packet: SEQ: 517, ACK: 516, FIN: 0.
+wait for receive.
+receive packet: SEQ: 517 FIN: 0 LEN: 2024
+receive pkt 517.
+send ack packet: SEQ: 518, ACK: 517, FIN: 0.
+wait for receive.
+receive packet: SEQ: 518 FIN: 0 LEN: 2024
+receive pkt 518.
+send ack packet: SEQ: 519, ACK: 518, FIN: 0.
+wait for receive.
+receive packet: SEQ: 519 FIN: 0 LEN: 2024
+receive pkt 519.
+send ack packet: SEQ: 520, ACK: 519, FIN: 0.
+wait for receive.
+receive packet: SEQ: 520 FIN: 0 LEN: 2024
+receive pkt 520.
+send ack packet: SEQ: 521, ACK: 520, FIN: 0.
+wait for receive.
+receive packet: SEQ: 521 FIN: 0 LEN: 2024
+receive pkt 521.
+send ack packet: SEQ: 522, ACK: 521, FIN: 0.
+wait for receive.
+receive packet: SEQ: 522 FIN: 0 LEN: 2024
+receive pkt 522.
+send ack packet: SEQ: 523, ACK: 522, FIN: 0.
+wait for receive.
+receive packet: SEQ: 523 FIN: 0 LEN: 2024
+receive pkt 523.
+send ack packet: SEQ: 524, ACK: 523, FIN: 0.
+wait for receive.
+receive packet: SEQ: 524 FIN: 0 LEN: 2024
+receive pkt 524.
+send ack packet: SEQ: 525, ACK: 524, FIN: 0.
+wait for receive.
+receive packet: SEQ: 525 FIN: 0 LEN: 2024
+receive pkt 525.
+send ack packet: SEQ: 526, ACK: 525, FIN: 0.
+wait for receive.

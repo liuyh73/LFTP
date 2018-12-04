@@ -13,11 +13,11 @@
 using namespace std;
 class receiver {
 private:
-    int bufSize = 128;
-    int rwnd = 128;
-    int expected_seqnum = 1;
+    int bufSize;
+    int rwnd;
+    int expected_seqnum;
     clock_t clocker;
-    bool stop_timer = false;
+    bool stop_timer;
     queue<packet>pkts_buf;
     SOCKET sock;
     struct sockaddr_in svc_addr;
